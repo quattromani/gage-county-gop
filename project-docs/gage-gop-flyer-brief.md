@@ -57,3 +57,7 @@ At the very bottom, let a voter voluntarily reveal an I voted sticker after voti
 ## Sticker visual revision
 
 The user rejected the generic ring-and-stars badge and supplied their own Gage County courthouse illustration. Use that artwork as the recognizable local centerpiece, preserving its building geometry, viewpoint, warm stone, slate roof and flag. Pair with expressive, legible I voted lettering and small county/year details. Favor an airy, cohesive illustrated sticker over the former generic seal. Preserve the existing reveal/save/share behavior. Keep the supplied source and generation prompt in the repository; do not regenerate the retired badge over the selected asset.
+
+## Tablet and desktop layouts
+
+Keep the existing single-column phone flow below 740px. Tablet widths use two office columns within each category, grouped dates and a two-part masthead. At 1100px and above, use persistent section navigation beside the reading area, three office columns and three date columns. Preserve federal-to-local category order and row-major reading/keyboard order; never split an office's candidate list across columns. Candidate marks, limits, downloads and sticker actions remain unchanged. Wide screens should shorten scanning and navigation without stretching names across the screen. Check phone, tablet and desktop widths, marked-only filtering and sidebar navigation before publishing.

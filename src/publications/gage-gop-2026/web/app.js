@@ -75,3 +75,5 @@ stickerShare.addEventListener('click',async()=>{
  stickerShare.disabled=false;
  stickerStatus.textContent=result==='unsupported'||result==='failed'?'This browser could not share the image. Save it below, then attach it to your Facebook post or message.':result==='handed-off'?'Your phone handled the sharing request.':'Sharing canceled. Your sticker is still ready to save.';
 });
+
+document.querySelectorAll('[data-section]').forEach(link=>link.addEventListener('click',()=>{filter.checked=false;applyFilter();}));

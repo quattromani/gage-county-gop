@@ -3,3 +3,51 @@
 .calendar-actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap}.calendar-actions>a{min-height:44px;display:inline-flex;align-items:center}
 
 .sticker-section{margin-top:36px;padding-top:28px;border-top:3px solid var(--red)}.sticker-section h2{font-size:25px;line-height:1.2;color:var(--navy);margin:0 0 12px}.sticker-section>p{line-height:1.5}.sticker-section h3{font-size:18px;color:var(--navy);margin:24px 0 16px}.voted-sticker{display:block;width:100%;max-width:380px;height:auto;margin:0 auto;border-radius:12px}#sticker-reveal{background:var(--navy);color:white;width:100%;min-height:52px}.sticker-section button:disabled{opacity:.65;cursor:wait}@media print{.sticker-section{display:none}}
+
+/* Preserve the phone card; larger screens expose offices side by side. */
+.nav-title,.section-links{display:none}
+.office-grid,.date-grid{min-width:0}
+@media screen and (min-width:740px){
+ .page{max-width:1000px;padding:28px 32px 48px}
+ .hero{display:grid;grid-template-columns:1.1fr 1fr;column-gap:36px;align-items:start}
+ .brand{grid-column:1/-1}
+ .hero h1{grid-column:1;grid-row:2/4;font-size:42px;margin:28px 0 16px}
+ .hero>.eyebrow{grid-column:1;grid-row:4;margin:0 0 24px}
+ .hero .appeal{grid-column:2;grid-row:2;margin:28px 0 0}
+ .hero .intro{grid-column:2;grid-row:3}
+ .hero .source-date{grid-column:2;grid-row:4;padding-bottom:24px;margin-top:0}
+ .quick-nav select{max-width:360px}
+ .selection-tools{justify-content:flex-start;gap:24px}
+ .office-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:28px;align-items:start}
+ .category{margin-top:36px}
+ .office{height:100%;padding:22px 0}
+ .date-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:28px}
+ #save .actions{grid-template-columns:repeat(3,minmax(0,1fr))}
+ #save details{max-width:70ch}
+ footer{display:grid;grid-template-columns:1fr 1fr;column-gap:32px}
+ footer>p:first-child,footer>a{grid-column:1/-1}
+ .sticker-section{display:grid;grid-template-columns:1fr 1fr;column-gap:32px;align-items:start}
+ .sticker-section>h2,.sticker-section>p,#sticker-reveal{grid-column:1}
+ #sticker-reveal{max-width:340px}
+ #sticker-panel{grid-column:2;grid-row:1/5}
+ .sticker-section h3{margin-top:0}
+}
+@media screen and (min-width:1100px){
+ html{scroll-padding-top:28px}
+ .page{max-width:1440px;padding:36px 44px 64px;display:grid;grid-template-columns:190px minmax(0,1fr);column-gap:40px}
+ .hero{grid-column:1/-1;grid-template-columns:1.25fr 1fr;column-gap:64px;padding-bottom:20px}
+ .hero h1{font-size:52px}
+ .quick-nav{grid-column:1;grid-row:2/9;align-self:start;top:28px;display:block;padding:18px 0 0;border-bottom:0}
+ .quick-nav>select,.quick-nav>a{display:none}
+ .nav-title{display:block;color:var(--muted);font-size:12px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;margin:0 0 12px}
+ .section-links{display:flex;flex-direction:column;gap:3px}
+ .section-links a{display:block;padding:12px;border-radius:6px;font-weight:700;text-decoration:none;font-size:14px}
+ .section-links a:hover{background:var(--wash)}
+ .page>section,.page>#candidates,.page>footer,.page>noscript{grid-column:2;min-width:0}
+ .office-grid{grid-template-columns:repeat(3,minmax(0,1fr));column-gap:26px}
+ .category{scroll-margin-top:0}
+ .date-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .selection-tools{padding-top:6px}
+ .candidate .name{font-size:17px}
+ .candidate{gap:9px}
+}
