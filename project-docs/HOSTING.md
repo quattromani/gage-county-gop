@@ -30,4 +30,4 @@ The first GitHub Actions build and deployment passed. Live requests returned HTT
 
 The browser confirmed local marks and the new publication path. The Apple subscription link now constructs webcal directly: changing an HTTPS URL object's protocol to a non-special scheme is ignored by browsers, so the old setter did not reliably preserve the intended scheme.
 
-The temporary Sites publication was made owner-only after the GitHub replacement succeeded, and its pending custom-domain binding was removed. No DNS records were changed. The old Sites address is no longer the public distribution link. Its historical deployment checkout remains locally for recovery only.
+The temporary Sites publication and its pending custom-domain binding remain in place. Automatic approval review blocked retiring them without explicit approval to disrupt existing links; that approval is pending. No DNS records were changed. GitHub Pages is now the primary public distribution link. The historical deployment checkout remains locally for recovery only.
