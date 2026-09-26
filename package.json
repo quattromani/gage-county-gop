@@ -6,7 +6,7 @@
   "description": "Gage County GOP publications, design assets, and reusable project source.",
   "engines": {"node": ">=22"},
   "scripts": {
-    "build": "node scripts/build-gop-web-card.mjs",
+    "build": "node scripts/build-site.mjs",
     "test": "node --test scripts/test-gop-web-card.mjs",
     "check": "npm run build && npm test",
     "import:candidates": "node scripts/import-civic-reference.mjs",

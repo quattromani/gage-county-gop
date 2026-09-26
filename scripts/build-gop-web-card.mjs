@@ -3,7 +3,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 const root=path.resolve(import.meta.dirname,'..');
 const source=path.join(root,'src/publications/gage-gop-2026');
-const out=path.join(root,'public');
+const out=path.join(root,'public/vote-2026');
 const data=JSON.parse(fs.readFileSync(path.join(root,'src/data/elections/2026/election-directory.json')));
 const calendar=JSON.parse(fs.readFileSync(path.join(root,'src/data/elections/2026/voting-calendar.json')));
 const candidates=new Map(data.candidates.map(r=>[r.candidateId,r]));

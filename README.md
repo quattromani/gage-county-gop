@@ -2,7 +2,7 @@
 
 A home for Gage County Republican Party projects, publications and reusable artwork. The first project is the 2026 candidate card and its print, mobile and social formats.
 
-- [Phone card](https://quattromani.github.io/gage-county-gop/)
+- [2026 voter card](https://quattromani.github.io/gage-county-gop/vote-2026/)
 - [Letter-size flyer](output/pdf/gage-county-gop-2026-candidate-flyer.pdf)
 - [Long phone image](output/pdf/gage-county-gop-2026-mobile-card.png)
 - [Continuous phone PDF](output/pdf/gage-county-gop-2026-mobile-card.pdf)
@@ -29,7 +29,7 @@ npm run check
 python3 -m http.server 8767 --directory public
 ```
 
-The web build uses the committed PDFs and images. It does not need access to another local folder, Sites, or a private service. The default GitHub Pages publication works beneath `/gage-county-gop/`; the same relative paths support a custom domain later.
+The web build uses the committed PDFs and images. It does not need access to another local folder, Sites, or a private service. The default GitHub Pages publication works beneath `/gage-county-gop/vote-2026/`; the same relative paths support a custom domain later.
 
 ## Candidate knowledge
 

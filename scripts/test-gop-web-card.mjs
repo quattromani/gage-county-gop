@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
 import {restoreSelection,canMark} from '../src/publications/gage-gop-2026/web/selection.mjs';
-const root=path.resolve(import.meta.dirname,'..'),out=path.join(root,'public');
+const root=path.resolve(import.meta.dirname,'..'),out=path.join(root,'public/vote-2026');
 const rows=[{id:'a',contest:'ward-1',limit:1},{id:'b',contest:'ward-1',limit:1},{id:'c',contest:'ward-2',limit:1},{id:'d',contest:'school',limit:2},{id:'e',contest:'school',limit:2},{id:'f',contest:'school',limit:2}];
 test('single-seat limits are independent by ward, while multi-seat races respect their limit',()=>{let marked=new Set(['a','d']);assert.equal(canMark(marked,rows[1],rows),false);assert.equal(canMark(marked,rows[2],rows),true);assert.equal(canMark(marked,rows[4],rows),true);marked.add('e');assert.equal(canMark(marked,rows[5],rows),false);marked.delete('a');assert.equal(canMark(marked,rows[1],rows),true);});
 test('restoration removes obsolete IDs, duplicates and over-limit marks; malformed storage is harmless',()=>{assert.deepEqual([...restoreSelection(['a','a','b','c','d','e','f','obsolete'],rows)],['a','c','d','e']);assert.equal(restoreSelection({bad:true},rows).size,0);});
@@ -23,3 +23,13 @@ test('individual Apple events open inline instead of requesting a download',()=>
 
 test('sticker download and offline copy are included after the footer',()=>{assert.ok(html.indexOf('id="voted"')>html.indexOf('</footer>'));assert.match(html,/download="gage-county-i-voted-2026.png"/);assert.ok(JSON.parse(fs.readFileSync(path.join(out,'build-info.json'))).assets.includes('./assets/sticker.png'));});
 test('native sticker sharing sends the image only and handles cancellation and unsupported browsers',async()=>{const {shareSticker}=await import('../src/publications/gage-gop-2026/web/sticker-share.mjs');const file=new File(['image'],'sticker.png',{type:'image/png'});let payload;assert.equal(await shareSticker(file,{canShare:()=>true,share:async data=>{payload=data}}),'handed-off');assert.deepEqual(payload,{files:[file]});assert.equal(await shareSticker(file,{}),'unsupported');assert.equal(await shareSticker(file,{canShare:()=>true,share:async()=>{throw Object.assign(Error(),{name:'AbortError'})}}),'cancelled');});
+
+test('parent links to the project and legacy subscriptions/downloads remain intact',()=>{
+ const parent=path.dirname(out);
+ const home=fs.readFileSync(path.join(parent,'index.html'),'utf8');
+ assert.match(home,/href="\.\/vote-2026\/"/);
+ assert.ok(!home.includes('data-contest='));
+ assert.match(html,/webcal:\/\/quattromani\.github\.io\/gage-county-gop\/vote-2026\/calendar\/all-dates\.ics/);
+ for(const dir of ['calendar','assets'])for(const file of fs.readdirSync(path.join(out,dir)))assert.deepEqual(fs.readFileSync(path.join(parent,dir,file)),fs.readFileSync(path.join(out,dir,file)));
+ assert.match(fs.readFileSync(path.join(parent,'sw.js'),'utf8'),/registration\.unregister/);
+});

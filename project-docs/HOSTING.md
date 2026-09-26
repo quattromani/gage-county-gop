@@ -4,7 +4,9 @@ This project moved from a temporary Sites deployment to the owner's public GitHu
 
 Repository: https://github.com/quattromani/gage-county-gop
 
-Current intended Pages address: https://quattromani.github.io/gage-county-gop/
+Project home: https://quattromani.github.io/gage-county-gop/
+
+2026 voter card: https://quattromani.github.io/gage-county-gop/vote-2026/
 
 The Actions workflow builds and validates the card, then publishes public/. Nothing in the build depends on Sites or its generated Worker. Source and media live in this repository. Historical implementation notes are retained in history/ for context, not as current instructions.
 
@@ -13,7 +15,7 @@ The Actions workflow builds and validates the card, then publishes public/. Noth
 1. In this repository's Settings → Pages, set the custom domain to `vote.gagecountygop.org`.
 2. At the domain's DNS provider, create a CNAME record named `vote` pointing to `quattromani.github.io` (no path). Inspect and replace an existing vote record only when ready to switch.
 3. Wait for GitHub's DNS check and certificate provisioning, then enable Enforce HTTPS.
-4. Set `src/publications/gage-gop-2026/publication.json` publicBaseUrl to `https://vote.gagecountygop.org/` and push.
+4. Set `src/publications/gage-gop-2026/publication.json` publicBaseUrl to `https://vote.gagecountygop.org/vote-2026/` and push.
 5. Verify the card, downloads, calendar response, image share, offline saving and Home Screen installation on the permanent URL.
 
 Do not use the old `custom-domains.chatgpt.site` CNAME or its verification TXT records. They belonged to the retired hosting setup. The main site, www and mail records need no change.
@@ -33,3 +35,7 @@ The browser confirmed local marks and the new publication path. The Apple subscr
 After explicit approval to retire the old link, the temporary Sites publication was changed to owner-only access and its pending vote.gagecountygop.org binding was removed. No DNS records were changed. GitHub Pages is now the public distribution link. The historical deployment checkout remains locally for recovery only.
 
 Editable GOP code and artwork were removed from the neutral civic checkout after the new repository preserved them. A migration pointer remains there. Historical rendered downloads stay in the old output/ folder to preserve earlier chat file links; new work belongs only here.
+
+## Project subdirectory
+
+The parent is a project index; the 2026 card and its offline scope live in `public/vote-2026/`. The build retains legacy root calendar and download URLs for existing subscriptions and shared links. A retirement worker at the old root scope unregisters itself without deleting saved caches or candidate marks. Visitors should save the new card for offline use and add its new address to their Home Screen. Candidate marks use the same local storage key, so they carry across paths on the same origin.
