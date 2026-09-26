@@ -30,4 +30,6 @@ The first GitHub Actions build and deployment passed. Live requests returned HTT
 
 The browser confirmed local marks and the new publication path. The Apple subscription link now constructs webcal directly: changing an HTTPS URL object's protocol to a non-special scheme is ignored by browsers, so the old setter did not reliably preserve the intended scheme.
 
-The temporary Sites publication and its pending custom-domain binding remain in place. Automatic approval review blocked retiring them without explicit approval to disrupt existing links; that approval is pending. No DNS records were changed. GitHub Pages is now the primary public distribution link. The historical deployment checkout remains locally for recovery only.
+After explicit approval to retire the old link, the temporary Sites publication was changed to owner-only access and its pending vote.gagecountygop.org binding was removed. No DNS records were changed. GitHub Pages is now the public distribution link. The historical deployment checkout remains locally for recovery only.
+
+Editable GOP code and artwork were removed from the neutral civic checkout after the new repository preserved them. A migration pointer remains there. Historical rendered downloads stay in the old output/ folder to preserve earlier chat file links; new work belongs only here.
