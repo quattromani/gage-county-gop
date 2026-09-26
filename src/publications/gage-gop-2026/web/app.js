@@ -51,7 +51,7 @@ const share=document.querySelector('#share');
 share.addEventListener('click',async()=>{const url=new URL('./',location.href).href;try{if(navigator.share)await navigator.share({title:'Gage County GOP · 2026 Candidate Card',url});else{await navigator.clipboard.writeText(url);share.textContent='Link copied';}}catch(error){if(error.name!=='AbortError'){share.textContent='Copy the address from your browser';}}});
 
 // Follow the permanent host automatically once the custom domain is connected.
-if(location.protocol==='https:')document.querySelectorAll('[data-webcal]').forEach(link=>{const url=new URL('./calendar/'+link.dataset.webcal,location.href);url.protocol='webcal:';link.href=url.href;});
+if(location.protocol==='https:')document.querySelectorAll('[data-webcal]').forEach(link=>{const url=new URL('./calendar/'+link.dataset.webcal,location.href);link.href='webcal:'+url.href.slice(url.protocol.length);});
 
 const stickerPanel=document.querySelector('#sticker-panel');
 const revealSticker=document.querySelector('#sticker-reveal');

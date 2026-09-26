@@ -23,3 +23,11 @@ GitHub's instructions: https://docs.github.com/en/pages/configuring-a-custom-dom
 With the Actions publishing workflow, a CNAME file does not itself configure the custom domain; use the Pages setting. No custom domain is enabled in advance because doing so would redirect the working preview before DNS is ready.
 
 Browser selections, offline caches and Home Screen installs are origin-specific. Visitors should save/install again after changing to the permanent address.
+
+## Verified migration · September 26, 2026
+
+The first GitHub Actions build and deployment passed. Live requests returned HTTP 200 for the sticker, calendar and application module; GitHub Pages served ICS as text/calendar and modules as text/javascript. Calendar links do not request forced downloads. The custom server adapter is retired in history/legacy-sites.
+
+The browser confirmed local marks and the new publication path. The Apple subscription link now constructs webcal directly: changing an HTTPS URL object's protocol to a non-special scheme is ignored by browsers, so the old setter did not reliably preserve the intended scheme.
+
+The temporary Sites publication was made owner-only after the GitHub replacement succeeded, and its pending custom-domain binding was removed. No DNS records were changed. The old Sites address is no longer the public distribution link. Its historical deployment checkout remains locally for recovery only.
