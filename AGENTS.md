@@ -6,6 +6,6 @@ The 2026 election snapshot is imported from Local Civic Reference. Correct candi
 
 Edit src/ and scripts/, then build public/; never edit generated HTML directly. PDFs and the long image are checked-in publication artifacts under output/pdf. Preserve original user artwork and prompt provenance. The current courthouse sticker is an image-generated adaptation of the supplied illustration; scripts/build-gop-sticker.py creates only the retired badge.
 
-Run npm run check before release. Maintain relative links, scoped offline caching, local-only candidate marks, accurate calendar media types and file sharing that sends only the sticker. Never claim a share-sheet handoff means a social post was published.
+Run npm run check before release. Maintain relative links, scoped offline caching, noninteractive candidate ovals, accurate calendar media types and file sharing that sends only the sticker. Never claim a share-sheet handoff means a social post was published.
 
 GitHub Pages is the current host. The intended domain is vote.gagecountygop.org. Do not reinstate Sites publishing or copy old Sites DNS records from the historical notes. Current migration and DNS instructions are in project-docs/HOSTING.md. Keep the future GOP projects independent of the neutral civic site's deployment.

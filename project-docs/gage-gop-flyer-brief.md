@@ -77,3 +77,7 @@ At the owner’s request, the save section offers exactly three actions, in orde
 ## Lead with take-along formats
 
 The owner identified print and saved-phone use as the original priority. Place the existing three-action save section directly after the masthead, before navigation and candidate marks, on every screen size. Explain briefly which PDF to use and that PDFs contain the full unmarked list. Keep the existing oval-marking instruction beside the web controls so each instruction precedes the action it explains. Do not duplicate the save section at the bottom.
+
+## Static ballot reference
+
+Remove candidate selection, filters, counters and marking instructions at the owner’s request. Keep decorative ovals, names and voting limits. The webcard is a reference, not an interactive ballot. Remove selection storage reads/writes and update current promotional wording. This supersedes prior selection requirements.

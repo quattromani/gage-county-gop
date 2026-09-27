@@ -58,7 +58,7 @@ The courthouse sticker is the approved generated artwork; its original reference
 
 Push to `main`: GitHub Actions builds, runs checks, and deploys only `public/` to Pages. Pull requests run the same checks without publishing. The custom domain is intentionally not enabled until its DNS can be connected. See `project-docs/HOSTING.md`.
 
-Reference marks stay in the visitor's browser. The site does not send marks to a server or include them in shares. Native calendar and sharing behavior depends on the visitor's phone/browser; image and PDF downloads remain available.
+Candidate ovals are visual references only. Native calendar and sharing behavior depends on the visitor's phone/browser; image and PDF downloads remain available.
 
 ## Assets and rights
 
