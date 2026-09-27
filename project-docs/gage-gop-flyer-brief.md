@@ -73,3 +73,7 @@ Use a dedicated 1200 × 630 link-preview image and a separate 1080 × 1080 image
 ## Simplified save actions
 
 At the owner’s request, the save section offers exactly three actions, in order: Download mobile PDF, Download letter-size PDF, Share card link. Remove offline/install controls and instructional disclosures from that section to reduce choices. Keep existing download URLs and Facebook preview metadata available; the I voted sticker remains its own interaction. Previously saved offline caches are preserved. This supersedes earlier requirements for visible offline-saving and social-image download controls.
+
+## Calendar action consolidation
+
+Each voting date starts with one Add to calendar control. A device hint selects the existing inline ICS link on Apple devices or Google event link on Android; unknown devices get a chooser. Keep an Other calendars disclosure when a default is offered, because operating system does not establish a person's calendar preference. Without JavaScript, the chooser remains functional. Preserve event contents and the all-dates subscription. Actual native handling, especially within Facebook's browser, still depends on the device. User-agent detection is only a fallible convenience hint: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Browser_detection_using_the_user_agent .
