@@ -73,3 +73,7 @@ Use a dedicated 1200 × 630 link-preview image and a separate 1080 × 1080 image
 ## Simplified save actions
 
 At the owner’s request, the save section offers exactly three actions, in order: Download mobile PDF, Download letter-size PDF, Share card link. Remove offline/install controls and instructional disclosures from that section to reduce choices. Keep existing download URLs and Facebook preview metadata available; the I voted sticker remains its own interaction. Previously saved offline caches are preserved. This supersedes earlier requirements for visible offline-saving and social-image download controls.
+
+## Lead with take-along formats
+
+The owner identified print and saved-phone use as the original priority. Place the existing three-action save section directly after the masthead, before navigation and candidate marks, on every screen size. Explain briefly which PDF to use and that PDFs contain the full unmarked list. Keep the existing oval-marking instruction beside the web controls so each instruction precedes the action it explains. Do not duplicate the save section at the bottom.
