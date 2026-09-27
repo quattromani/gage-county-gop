@@ -33,3 +33,18 @@ test('parent links to the project and legacy subscriptions/downloads remain inta
  for(const dir of ['calendar','assets'])for(const file of fs.readdirSync(path.join(out,dir)))assert.deepEqual(fs.readFileSync(path.join(parent,dir,file)),fs.readFileSync(path.join(out,dir,file)));
  assert.match(fs.readFileSync(path.join(parent,'sw.js'),'utf8'),/registration\.unregister/);
 });
+
+test('social preview is crawlable static metadata with correct PNG dimensions',()=>{
+ const image=html.match(/property="og:image" content="([^"]+)"/)[1];
+ const url=new URL(image);
+ assert.equal(url.origin,'https://quattromani.github.io');
+ assert.equal(url.pathname,'/gage-county-gop/vote-2026/assets/facebook-preview.png');
+ assert.match(html,/property="og:image:width" content="1200"/);
+ assert.match(html,/property="og:image:height" content="630"/);
+ for(const [file,w,h] of [['facebook-preview.png',1200,630],['facebook-post-square.png',1080,1080]]){
+  const png=fs.readFileSync(path.join(out,'assets',file));
+  assert.equal(png.toString('hex',0,8),'89504e470d0a1a0a');
+  assert.equal(png.readUInt32BE(16),w);assert.equal(png.readUInt32BE(20),h);
+  assert.ok(png.length<8000000);
+ }
+});

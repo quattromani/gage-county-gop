@@ -65,3 +65,7 @@ Keep the existing single-column phone flow below 740px. Tablet widths use two of
 ## Parent project home
 
 Reserve the repository root URL for a small, responsive project index. Link directly to the 2026 voter card in `vote-2026/`, using the existing navy, red and GOP brand. No candidate facts are repeated on the index. Keep calendar subscriptions and previously shared downloads working at their original addresses while new links and offline storage use the project subdirectory.
+
+## Facebook distribution
+
+Use a dedicated 1200 × 630 link-preview image and a separate 1080 × 1080 image for manual photo posts. Both introduce the card instead of compressing the entire candidate list into a thumbnail. Match the existing navy, red, typography and supplied courthouse illustration; keep all essential text inset from image edges. Supply absolute Open Graph image URLs, dimensions and alt text in the card's static HTML so crawlers need no JavaScript. Facebook ultimately controls each placement and its cropping; no image metadata can guarantee every presentation. Preserve the editable social layout and downloadable PNGs in this repository.
