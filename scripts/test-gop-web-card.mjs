@@ -48,12 +48,3 @@ test('social preview is crawlable static metadata with correct PNG dimensions',(
   assert.ok(png.length<8000000);
  }
 });
-
-test('calendar defaults cover Apple and Android while unknown devices retain a chooser',async()=>{
- const {calendarChoice}=await import('../src/publications/gage-gop-2026/web/calendar-choice.mjs');
- for(const ua of ['iPhone','iPad','Macintosh'])assert.equal(calendarChoice(ua),'apple');
- assert.equal(calendarChoice('Linux Android 16'),'google');
- for(const ua of ['', 'Windows NT 10.0','Linux x86_64'])assert.equal(calendarChoice(ua),null);
- assert.equal((html.match(/class="calendar-choice"/g)||[]).length,5);
- assert.equal((html.match(/Add to calendar<span/g)||[]).length,5);
-});

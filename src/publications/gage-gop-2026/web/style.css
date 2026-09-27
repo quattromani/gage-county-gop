@@ -54,11 +54,3 @@
 
 .voted-nav-check{display:none}
 @media screen and (min-width:1100px){.voted-nav-check{display:inline-block;color:var(--red);vertical-align:-3px;margin-left:4px}}
-
-.calendar-actions{align-items:flex-start;gap:8px;flex-direction:column}
-.calendar-choice{border:0;padding:0;margin:0;width:100%}
-.calendar-choice>summary.button{display:list-item;list-style:none;width:fit-content;cursor:pointer}
-.calendar-choice>summary::-webkit-details-marker{display:none}
-.calendar-choice>summary::after{content:' ▾'}
-.calendar-choice.has-default>summary.button{border:0;background:none;padding:4px 0;min-height:32px;font-size:12px;text-decoration:underline;font-weight:400}
-.calendar-options{display:flex;flex-wrap:wrap;gap:8px;padding-top:10px}

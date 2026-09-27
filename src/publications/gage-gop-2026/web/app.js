@@ -1,4 +1,3 @@
-import {calendarChoice} from './calendar-choice.mjs';
 import {shareSticker} from './sticker-share.mjs';
 import {restoreSelection, canMark} from './selection.mjs';
 const storageKey='gage-gop-2026-marks';
@@ -64,16 +63,3 @@ stickerShare.addEventListener('click',async()=>{
 });
 
 document.querySelectorAll('[data-section]').forEach(link=>link.addEventListener('click',()=>{filter.checked=false;applyFilter();}));
-
-// A device hint supplies a default, never removes the alternative calendar.
-const preferredCalendar=calendarChoice(navigator.userAgent);
-if(preferredCalendar)document.querySelectorAll('.calendar-choice').forEach(chooser=>{
- const options=[...chooser.querySelectorAll('a')];
- const preferred=options.find(link=>preferredCalendar==='google'?link.href.includes('calendar.google.com'):link.getAttribute('href').endsWith('.ics'));
- const primary=preferred.cloneNode(true);
- primary.textContent='Add to calendar';
- primary.setAttribute('aria-label',preferred.getAttribute('aria-label').replace(/(?:Add|Open) (.+) (?:to Google Calendar|in Apple Calendar)/,'Add $1 to calendar'));
- chooser.before(primary);
- chooser.querySelector('summary').textContent='Other calendars';
- chooser.classList.add('has-default');
-});
