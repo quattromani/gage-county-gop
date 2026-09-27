@@ -69,3 +69,7 @@ Reserve the repository root URL for a small, responsive project index. Link dire
 ## Facebook distribution
 
 Use a dedicated 1200 × 630 link-preview image and a separate 1080 × 1080 image for manual photo posts. Both introduce the card instead of compressing the entire candidate list into a thumbnail. Match the existing navy, red, typography and supplied courthouse illustration; keep all essential text inset from image edges. Supply absolute Open Graph image URLs, dimensions and alt text in the card's static HTML so crawlers need no JavaScript. Facebook ultimately controls each placement and its cropping; no image metadata can guarantee every presentation. Preserve the editable social layout and downloadable PNGs in this repository.
+
+## Simplified save actions
+
+At the owner’s request, the save section offers exactly three actions, in order: Download mobile PDF, Download letter-size PDF, Share card link. Remove offline/install controls and instructional disclosures from that section to reduce choices. Keep existing download URLs and Facebook preview metadata available; the I voted sticker remains its own interaction. Previously saved offline caches are preserved. This supersedes earlier requirements for visible offline-saving and social-image download controls.

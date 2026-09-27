@@ -31,22 +31,8 @@ filter.addEventListener('change',applyFilter);
 document.querySelector('#clear').addEventListener('click',()=>{selected.clear();document.querySelectorAll(".contest-notice").forEach(el=>el.textContent="");inputs.forEach(i=>i.checked=false);persist();applyFilter();announce();});
 const jump=document.querySelector('#jump');jump.addEventListener('change',()=>{if(!jump.value)return;filter.checked=false;applyFilter();const target=document.getElementById(jump.value);target.scrollIntoView();target.querySelector('h2')?.focus({preventScroll:true});jump.value='';});
 persist();announce();
-let deferredPrompt;
-const install=document.querySelector('#install');
-window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredPrompt=event;install.hidden=false;});
-install.addEventListener('click',async()=>{if(!deferredPrompt)return;await deferredPrompt.prompt();await deferredPrompt.userChoice;deferredPrompt=null;install.hidden=true;});
-window.addEventListener('appinstalled',()=>install.hidden=true);
-const offline=document.querySelector('#offline-status'),save=document.querySelector('#offline-save');
-const savedLabel=document.querySelector('meta[name="card-version"]').content;
-async function askWorker(type){
- const reg=await navigator.serviceWorker.ready;
- return new Promise((resolve,reject)=>{const channel=new MessageChannel();const timer=setTimeout(()=>reject(new Error('Saving took too long. Please try again.')),30000);channel.port1.onmessage=({data})=>{clearTimeout(timer);data.error?reject(new Error(data.error)):resolve(data);};reg.active.postMessage({type},[channel.port2]);});
-}
-if('serviceWorker' in navigator && window.isSecureContext){
- navigator.serviceWorker.register('./sw.js').then(async()=>{save.disabled=false;const info=await askWorker('STATUS');offline.textContent=info.ready?`Available offline · edition ${savedLabel}.`:'Save a copy for offline reading, including the image, PDFs, and calendar files.';}).catch(()=>{offline.textContent='Offline saving is unavailable here. You can still download the image or PDF.';});
- save.addEventListener('click',async()=>{save.disabled=true;offline.textContent='Saving the card and downloads…';try{await askWorker('SAVE');offline.textContent=`Available offline · edition ${savedLabel}. Your browser may remove saved files if storage is cleared.`;}catch(error){offline.textContent=`Could not finish saving. ${error.message}`;}finally{save.disabled=false;}});
-}else offline.textContent='Offline saving needs HTTPS. The image and PDF can still be downloaded.';
-window.addEventListener('offline',()=>{offline.textContent='You are offline. Previously saved content is available; external links need a connection.';});
+// Keep previously saved offline copies available without adding more save controls.
+if('serviceWorker' in navigator && window.isSecureContext)navigator.serviceWorker.register('./sw.js').catch(()=>{});
 const share=document.querySelector('#share');
 share.addEventListener('click',async()=>{const url=new URL('./',location.href).href;try{if(navigator.share)await navigator.share({title:'Gage County GOP · 2026 Candidate Card',url});else{await navigator.clipboard.writeText(url);share.textContent='Link copied';}}catch(error){if(error.name!=='AbortError'){share.textContent='Copy the address from your browser';}}});
 

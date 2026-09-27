@@ -25,7 +25,7 @@ self.addEventListener('fetch',event=>{
    const key=indexRequest?full('./'):event.request;
    const keys=[CACHE,...(await caches.keys()).filter(k=>k.startsWith(PREFIX)&&k!==CACHE)];
    for(const name of keys){const match=await (await caches.open(name)).match(key);if(match)return match;}
-   return new Response('This file is not saved offline. Reconnect and choose Save for offline.',{status:503,headers:{'Content-Type':'text/plain'}});
+   return new Response('This file is not saved offline. Reconnect to view it, or open a PDF you previously downloaded.',{status:503,headers:{'Content-Type':'text/plain'}});
   }
  })());
 });
