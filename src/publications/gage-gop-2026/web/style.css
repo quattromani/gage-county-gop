@@ -60,3 +60,8 @@
 #save .actions{margin-bottom:0}
 
 .candidate{cursor:default}.ballot-oval{flex:none;width:23px;height:15px;border:1.5px solid var(--muted);border-radius:50%}
+
+#save .actions>a{background:var(--red);border:2px solid var(--red);color:#fff;min-height:48px}
+#save .actions>a:hover{background:#8d1916;border-color:#8d1916}
+#save #share{border:2px solid var(--navy);color:var(--navy);min-height:48px}
+#save #share:hover{background:var(--navy);color:#fff}

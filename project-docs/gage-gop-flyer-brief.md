@@ -81,3 +81,7 @@ The owner identified print and saved-phone use as the original priority. Place t
 ## Static ballot reference
 
 Remove candidate selection, filters, counters and marking instructions at the owner’s request. Keep decorative ovals, names and voting limits. The webcard is a reference, not an interactive ballot. Remove selection storage reads/writes and update current promotional wording. This supersedes prior selection requirements.
+
+## Resource action emphasis
+
+The two PDF downloads are primary resource actions: use solid brand red with white text. Share is secondary: use a strong navy outline. Keep equal sizing, clear labels and visible focus states. This hierarchy gives take-along formats prominence without making every action equally heavy.
