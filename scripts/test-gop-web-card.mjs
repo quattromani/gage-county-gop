@@ -68,3 +68,13 @@ test('web downloads exactly match regenerated publication artifacts',()=>{
  for(const [source,target] of [['gage-county-gop-2026-candidate-flyer.pdf','print-flyer.pdf'],['gage-county-gop-2026-mobile-card.pdf','candidate-card.pdf'],['gage-county-gop-2026-mobile-card.png','candidate-card.png']])
  assert.deepEqual(fs.readFileSync(path.join(root,'output/pdf',source)),fs.readFileSync(path.join(out,'assets',target)));
 });
+
+test('filled candidate ovals match the explicitly confirmed recommendation roster',()=>{
+ const publication=JSON.parse(fs.readFileSync(path.join(root,'src/publications/gage-gop-2026/publication.json')));
+ const actual=[...html.matchAll(/data-candidacy="([^"]+)"/g)].map(m=>m[1]).sort();
+ assert.deepEqual(actual,publication.recommendations.candidacyIds.toSorted());
+ assert.match(html,/Filled ovals indicate Gage County GOP recommendations/);
+ assert.ok(!html.includes('Listing does not imply endorsement'));
+ const css=fs.readFileSync(path.join(out,'style.css'),'utf8');
+ assert.match(css,/\.ballot-oval\{[^}]*background:var\(--ink\)/);
+});

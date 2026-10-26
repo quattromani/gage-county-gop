@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'src/data/elections/2026/election-directory.json'
 OUT = ROOT / 'output/pdf/gage-county-gop-2026-candidate-flyer.pdf'
 d = json.loads(DATA.read_text())
+recommendations=json.loads((ROOT/'src/publications/gage-gop-2026/publication.json').read_text())['recommendations']['candidacyIds']
 judicial = json.loads((DATA.parent / 'judicial-retention.json').read_text())
 calendar = json.loads((DATA.parent / 'voting-calendar.json').read_text())
 candidates = {r['candidateId']:r for r in d['candidates']}
@@ -81,8 +82,8 @@ def office(oid,x,y,label=None):
         if r.get('filingMethod')=='Declared write-in': name += ' (write-in)'
         if oid=='office-beatrice-city-council':
             name += ' (' + r['seat'] + ')' 
-        c.setStrokeColor(INK);c.setLineWidth(.55)
-        c.ellipse(x+.4,y-7.9,x+7.6,y-3.7,stroke=1,fill=0)
+        c.setStrokeColor(INK);c.setFillColor(INK);c.setLineWidth(.55)
+        c.ellipse(x+.4,y-7.9,x+7.6,y-3.7,stroke=1,fill=1)
         oval_count += 1
         y=para(escape(name),x+11,y,W-11,10,'Wide',RED,10.5)
     y-=OFFICE_GAP/2
@@ -118,6 +119,7 @@ print('Column bottoms:',bottoms)
 assert min(bottoms)>183, 'Content overlaps footer'
 assert sorted(visited)==sorted(r['candidacyId'] for r in selected), 'Missing or duplicate candidate listing'
 
+assert sorted(recommendations)==sorted(r['candidacyId'] for r in selected), 'Recommendation roster requires confirmation'
 assert oval_count == len(selected), 'One oval required per listing'
 text('KEY VOTING DATES',24,180,9,'Bold',NAVY)
 text('2026  /  ALL TIMES CENTRAL',448,180,8,'Bold',GRAY)
@@ -134,7 +136,7 @@ c.linkURL(calendar['source']['url'],(24,84,588,173),relative=0)
 text('gagecountygop.org',24,65,17,'Bold',NAVY)
 text('Provided by Gage County GOP',385,67,10,'Bold',NAVY)
 c.linkURL('https://www.gagecountygop.org/',(24,60,220,80),relative=0)
-para('Includes documented Republicans in nonpartisan races. Unconfirmed affiliations omitted. Listing does not imply endorsement.',24,55,564,8,color=GRAY,leading=8.5)
+para('Includes documented Republicans in nonpartisan races. Unconfirmed affiliations omitted. Filled ovals indicate Gage County GOP recommendations.',24,55,564,8,color=GRAY,leading=8.5)
 para('Candidate source: Local Civic Reference; reviewed '+d['lastValidated']+'. Malina affiliation reported by VIP. See partyreveal.com for evidence.<br/>Landon: write the name on the ballot write-in line and mark its oval. Judicial retention questions are on page 2. Not an official ballot.',24,43,564,8,color=GRAY,leading=8.5)
 text('1 of 2',550,15,8,'Body',GRAY)
 c.linkURL('https://partyreveal.com/',(24,29,588,52),relative=0)

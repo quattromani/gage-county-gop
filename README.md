@@ -33,7 +33,7 @@ The web build uses the committed PDFs and images. It does not need access to ano
 
 ## Candidate knowledge
 
-The canonical candidate authority remains [Local Civic Reference](https://github.com/quattromani/local-civic-reference). This repository holds a reproducible, dated publication projection: 83 listings, 82 candidates and 49 offices after the October 26 refresh. The inclusion policy is documented Republican affiliation and a current general-election candidacy. Inclusion does not imply endorsement or final ballot certification. The GOP branding website is not used as a candidate source.
+The canonical candidate authority remains [Local Civic Reference](https://github.com/quattromani/local-civic-reference). This repository holds a reproducible, dated publication projection: 83 listings, 82 candidates and 49 offices after the October 26 refresh. The inclusion policy is documented Republican affiliation and a current general-election candidacy. Max confirmed the current card roster as Gage County GOP recommendations on October 26, 2026; the confirmed candidacy IDs are recorded separately in the publication configuration. Inclusion is not final ballot certification. The GOP branding website is not used as a candidate source.
 
 To refresh from a local checkout of the civic repository:
 
@@ -58,7 +58,7 @@ The courthouse sticker is the approved generated artwork; its original reference
 
 Push to `main`: GitHub Actions builds, runs checks, and deploys only `public/` to Pages. Pull requests run the same checks without publishing. The custom domain is intentionally not enabled until its DNS can be connected. See `project-docs/HOSTING.md`.
 
-Candidate ovals are visual references only. Native calendar and sharing behavior depends on the visitor's phone/browser; image and PDF downloads remain available.
+Filled candidate ovals indicate Gage County GOP recommendations and remain noninteractive. Judicial retention questions carry no Yes or No recommendation. Native calendar and sharing behavior depends on the visitor's phone/browser; image and PDF downloads remain available.
 
 ## Assets and rights
 

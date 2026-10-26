@@ -59,7 +59,7 @@
 #save .intro{max-width:65ch}
 #save .actions{margin-bottom:0}
 
-.candidate{cursor:default}.ballot-oval{flex:none;width:23px;height:15px;border:1.5px solid var(--muted);border-radius:50%}
+.candidate{cursor:default}.ballot-oval{flex:none;width:23px;height:15px;border:1.5px solid var(--ink);background:var(--ink);border-radius:50%;print-color-adjust:exact;-webkit-print-color-adjust:exact}
 
 #save .actions>a{background:var(--red);border:2px solid var(--red);color:#fff;min-height:48px}
 #save .actions>a:hover{background:#8d1916;border-color:#8d1916}
@@ -75,3 +75,5 @@
 /* Notes occupy their own row beneath the associated name. */
 .candidate { display:grid; grid-template-columns:23px minmax(0,1fr); column-gap:12px; row-gap:0; }
 .candidate .candidate-note { grid-column:2; margin:.25rem 0 .5rem; }
+
+.recommendation-note{font-size:14px;line-height:1.5;color:var(--navy);font-weight:700}

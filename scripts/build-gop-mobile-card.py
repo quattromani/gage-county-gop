@@ -18,6 +18,7 @@ ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'src/data/elections/2026'
 OUT=ROOT/'output/pdf/gage-county-gop-2026-mobile-card.pdf'
 d=json.loads((DATA/'election-directory.json').read_text())
+recommendations=json.loads((ROOT/'src/publications/gage-gop-2026/publication.json').read_text())['recommendations']['candidacyIds']
 judicial=json.loads((DATA/'judicial-retention.json').read_text())
 calendar=json.loads((DATA/'voting-calendar.json').read_text())
 candidates={v['candidateId']:v for v in d['candidates']}
@@ -101,6 +102,7 @@ cursor+=10
 para('Take this with you to vote for<br/>Republican Party candidates.',14,True,white,x=36,w=288,leading=20)
 gap(22)
 para('Your address determines your ballot.<br/>Follow its offices, districts, and voting limits.',12,color=INK,leading=17)
+para('Filled ovals indicate Gage County GOP recommendations.',11,True,color=NAVY,leading=17)
 para('Scroll for candidates and key voting dates.',11,color=GRAY,leading=17)
 
 federal=['office-us-senator','office-us-house-district-3']
@@ -144,7 +146,7 @@ web_top=cursor
 para('gagecountygop.org',22,True,NAVY,leading=28)
 para('Provided by Gage County GOP',12,True,NAVY,leading=17)
 gap(17)
-para('Includes documented Republicans in nonpartisan races.<br/>Unconfirmed affiliations are omitted.<br/>Listing does not imply endorsement.',11,color=GRAY,leading=15)
+para('Includes documented Republicans in nonpartisan races.<br/>Unconfirmed affiliations are omitted.<br/>Filled ovals indicate Gage County GOP recommendations.',11,color=GRAY,leading=15)
 gap(10)
 para('Candidate source: Local Civic Reference. Records reviewed '+d['lastValidated']+'. See partyreveal.com for individual evidence and source dates.',10,color=GRAY,leading=14)
 gap(10)
@@ -152,6 +154,7 @@ para('Updated October 26, 2026.<br/>This reference is not an official ballot.',1
 gap(24)
 HEIGHT=cursor
 assert sorted(visited)==sorted(r['candidacyId'] for rows in groups.values() for r in rows)
+assert sorted(recommendations)==sorted(visited), 'Recommendation roster requires confirmation'
 assert oval_count==len(visited)==83
 c=canvas.Canvas(str(OUT),pagesize=(WIDTH,HEIGHT),pageCompression=1)
 c.setTitle('Gage County GOP | 2026 Mobile Candidate Card')
@@ -167,7 +170,7 @@ for op in ops:
     elif kind=='line':
         _,x,y,x2,y2,color=op;c.setStrokeColor(color);c.setLineWidth(.65);c.line(x,HEIGHT-y,x2,HEIGHT-y2)
     elif kind=='oval':
-        _,x,top,w,h=op;c.setStrokeColor(INK);c.setLineWidth(.85);c.ellipse(x,HEIGHT-top-h,x+w,HEIGHT-top,stroke=1,fill=0)
+        _,x,top,w,h=op;c.setStrokeColor(INK);c.setFillColor(INK);c.setLineWidth(.85);c.ellipse(x,HEIGHT-top-h,x+w,HEIGHT-top,stroke=1,fill=1)
 c.linkURL('https://www.gagecountygop.org/',(24,HEIGHT-web_top-48,336,HEIGHT-web_top),relative=0)
 c.linkURL(calendar['source']['url'],(24,HEIGHT-dates_bottom,336,HEIGHT-dates_top),relative=0)
 c.linkURL(judicial['data']['questions'][0]['sources'][0]['url'],(24,HEIGHT-retention_source_bottom,336,HEIGHT-retention_source_top),relative=0)
