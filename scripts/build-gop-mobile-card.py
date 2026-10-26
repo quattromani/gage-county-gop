@@ -18,6 +18,7 @@ ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'src/data/elections/2026'
 OUT=ROOT/'output/pdf/gage-county-gop-2026-mobile-card.pdf'
 d=json.loads((DATA/'election-directory.json').read_text())
+judicial=json.loads((DATA/'judicial-retention.json').read_text())
 calendar=json.loads((DATA/'voting-calendar.json').read_text())
 candidates={v['candidateId']:v for v in d['candidates']}
 affiliations={v['affiliationId']:v for v in d['affiliations']}
@@ -76,7 +77,11 @@ def office(oid):
             gap(2)
         ops.append(('oval',MARGIN+1,cursor+5.2,10,6.2))
         oval_count+=1
-        para(escape(name),15,True,RED,x=MARGIN+20,w=CONTENT-20,leading=20)
+        para(escape(name + (' (write-in)' if r.get('filingMethod')=='Declared write-in' else '')),15,True,RED,x=MARGIN+20,w=CONTENT-20,leading=20)
+        if r.get('filingMethod')=='Declared write-in':
+            para('Write this name on the write-in line and mark its oval.',10,color=GRAY,x=MARGIN+20,w=CONTENT-20)
+        if affiliations[r['affiliationId']].get('evidenceType')=='reported-affiliation':
+            para('Affiliation reported by Voter Information Project.',10,color=GRAY,x=MARGIN+20,w=CONTENT-20)
         visited.append(r['candidacyId'])
         gap(5)
     gap(6);rule();gap(13)
@@ -107,6 +112,21 @@ for title,category in [('School boards','School Boards'),('Cities & villages','C
 for title,ids in sections:
     section(title)
     for oid in ids:office(oid)
+section(judicial['copy']['heading'])
+para(escape(judicial['copy']['introduction']),12,leading=17);gap(9)
+para(escape(judicial['copy']['instructions']),12,True,leading=17);gap(9)
+para('Listed for ballot reference. Inclusion does not recommend a Yes or No vote.',11,color=GRAY);gap(12)
+for court in judicial['data']['courts']:
+    para(escape(court['name']+' - '+court['scope']),14,True,NAVY);gap(10)
+    for question in judicial['data']['questions']:
+        if question['courtId']!=court['courtId']:continue
+        para(escape(question['name']),15,True,NAVY);gap(3)
+        para(escape(question['ballotQuestion']),12);gap(3)
+        para('Six-year term. Ballot choices: Yes or No.',11,color=GRAY);gap(13)
+    rule();gap(15)
+retention_source_top=cursor
+para('Sources: Nebraska Secretary of State final retention list, August 3, 2026; Nebraska Judicial Branch voter guide. Reviewed October 26, 2026.',10,color=GRAY);gap(10)
+retention_source_bottom=cursor
 section('Key voting dates')
 para('2026 · All times Central',12,True,GRAY,leading=16);gap(16)
 dates_top=cursor
@@ -126,13 +146,13 @@ para('Provided by Gage County GOP',12,True,NAVY,leading=17)
 gap(17)
 para('Includes documented Republicans in nonpartisan races.<br/>Unconfirmed affiliations are omitted.<br/>Listing does not imply endorsement.',11,color=GRAY,leading=15)
 gap(10)
-para('Candidate source: Local Civic Reference. County filings through Aug. 3; state filings through July 15; reviewed Aug. 12, 2026.',10,color=GRAY,leading=14)
+para('Candidate source: Local Civic Reference. Records reviewed '+d['lastValidated']+'. See partyreveal.com for individual evidence and source dates.',10,color=GRAY,leading=14)
 gap(10)
-para('Prepared Sept. 26, 2026.<br/>This reference is not an official ballot.',10,color=GRAY,leading=14)
+para('Updated October 26, 2026.<br/>This reference is not an official ballot.',10,color=GRAY,leading=14)
 gap(24)
 HEIGHT=cursor
 assert sorted(visited)==sorted(r['candidacyId'] for rows in groups.values() for r in rows)
-assert oval_count==len(visited)==80
+assert oval_count==len(visited)==83
 c=canvas.Canvas(str(OUT),pagesize=(WIDTH,HEIGHT),pageCompression=1)
 c.setTitle('Gage County GOP | 2026 Mobile Candidate Card')
 c.setAuthor('Gage County GOP')
@@ -150,9 +170,12 @@ for op in ops:
         _,x,top,w,h=op;c.setStrokeColor(INK);c.setLineWidth(.85);c.ellipse(x,HEIGHT-top-h,x+w,HEIGHT-top,stroke=1,fill=0)
 c.linkURL('https://www.gagecountygop.org/',(24,HEIGHT-web_top-48,336,HEIGHT-web_top),relative=0)
 c.linkURL(calendar['source']['url'],(24,HEIGHT-dates_bottom,336,HEIGHT-dates_top),relative=0)
+c.linkURL(judicial['data']['questions'][0]['sources'][0]['url'],(24,HEIGHT-retention_source_bottom,336,HEIGHT-retention_source_top),relative=0)
 c.showPage();c.save()
 r=PdfReader(str(OUT));assert len(r.pages)==1
 extracted=' '.join(r.pages[0].extract_text().split())
 for rows in groups.values():
     for row in rows:assert candidates[row['candidateId']]['displayName'] in extracted
+for question in judicial['data']['questions']:assert question['ballotQuestion'] in extracted
+assert 'Anthony M. Landon (write-in)' in extracted
 print(f'Validated one continuous page: {WIDTH} x {HEIGHT:.1f} pt; {len(visited)} listings and {oval_count} ovals. PNG target: 1080 x {round(HEIGHT*3)} px.')

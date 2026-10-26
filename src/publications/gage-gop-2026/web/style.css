@@ -65,3 +65,13 @@
 #save .actions>a:hover{background:#8d1916;border-color:#8d1916}
 #save #share{border:2px solid var(--navy);color:var(--navy);min-height:48px}
 #save #share:hover{background:var(--navy);color:#fff}
+
+.candidate-note { display:block; margin:.25rem 0 .75rem 1.75rem; font-size:.85rem; color:#56606b; }
+.retention-court { margin-block:1.5rem; }
+.retention-question { border-top:1px solid #d8dce1; padding-block:1rem; }
+.retention-question h4 { color:#172c47; margin:0 0 .5rem; font-size:1.1rem; }
+.retention-question p { margin:.4rem 0; }
+.write-in-label { white-space:nowrap; }
+/* Notes occupy their own row beneath the associated name. */
+.candidate { display:grid; grid-template-columns:23px minmax(0,1fr); column-gap:12px; row-gap:0; }
+.candidate .candidate-note { grid-column:2; margin:.25rem 0 .5rem; }

@@ -1,0 +1,4 @@
+
+# Generated publication artifacts are binary, not line-oriented source.
+*.pdf binary
+*.png binary

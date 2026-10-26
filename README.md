@@ -33,7 +33,7 @@ The web build uses the committed PDFs and images. It does not need access to ano
 
 ## Candidate knowledge
 
-The canonical candidate authority remains [Local Civic Reference](https://github.com/quattromani/local-civic-reference). This repository holds a reproducible, dated publication projection: 80 listings, 79 candidates and 47 offices as initially imported. The inclusion policy is documented Republican affiliation and a current general-election candidacy. Inclusion does not imply endorsement or final ballot certification. The GOP branding website is not used as a candidate source.
+The canonical candidate authority remains [Local Civic Reference](https://github.com/quattromani/local-civic-reference). This repository holds a reproducible, dated publication projection: 83 listings, 82 candidates and 49 offices after the October 26 refresh. The inclusion policy is documented Republican affiliation and a current general-election candidacy. Inclusion does not imply endorsement or final ballot certification. The GOP branding website is not used as a candidate source.
 
 To refresh from a local checkout of the civic repository:
 
@@ -63,3 +63,11 @@ Candidate ovals are visual references only. Native calendar and sharing behavior
 ## Assets and rights
 
 The courthouse reference was supplied by the project owner. The active sticker is an image-generated adaptation, with provenance in `project-docs/sticker-courthouse-prompt.md`. GOP branding assets retain their respective owners' rights. Public repository access is not a blanket license to third-party marks or artwork.
+
+## October 26, 2026 refresh
+
+The publication adds Gene Radar Reedy, Eric G. Malina, and Anthony M. Landon, with Landon labeled as a declared write-in. The import preserves filing methods, affiliation evidence types and source dates. Judicial retention is imported separately into `src/data/elections/2026/judicial-retention.json`; judges are not Republican candidate listings, and inclusion does not recommend a Yes or No vote.
+
+The letter flyer now has two pages: candidate reference first, judicial retention second. The continuous mobile PDF and PNG include both sections. After regenerating the artifacts, run `python3 scripts/test-gop-artifacts.py` with the publication dependencies installed, then `npm run check`. This checks all candidate names and exact retention questions across the PDFs and verifies the PNG dimensions; the web tests verify the downloadable copies match the regenerated files. Render and visually inspect both PDF pages and representative mobile regions before publication.
+
+The current import includes the committed upstream correction to Blue Springs mayor's one-seat, one-vote limit, supported by the county sample ballot. Provenance records the published upstream revision and a clean candidate source.

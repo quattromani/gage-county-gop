@@ -45,4 +45,26 @@ test('social preview is crawlable static metadata with correct PNG dimensions',(
  }
 });
 
-test("candidate ovals are visual references without selection controls",()=>{assert.equal((html.match(/class="ballot-oval" aria-hidden="true"/g)||[]).length,80);assert.ok(!html.includes('type="checkbox"'));assert.ok(!html.includes('My reference marks'));});
+test("candidate ovals are visual references without selection controls",()=>{assert.equal((html.match(/class="ballot-oval" aria-hidden="true"/g)||[]).length,83);assert.ok(!html.includes('type="checkbox"'));assert.ok(!html.includes('My reference marks'));});
+
+test('updated roster preserves write-in status and keeps retention separate',()=>{
+ const data=JSON.parse(fs.readFileSync(path.join(root,'src/data/elections/2026/election-directory.json')));
+ assert.equal(data.candidacies.length,83); assert.equal(data.candidates.length,82);
+ const landon=data.candidacies.find(r=>r.candidateId==='cand-anthony-m-landon');
+ assert.equal(landon.filingMethod,'Declared write-in');
+ assert.match(html,/Anthony M\. Landon[^<]*<strong class="write-in-label">\(write-in\)/);
+ assert.match(html,/Eric G\. Malina/); assert.match(html,/Gene Radar Reedy/);
+ assert.equal(data.offices.find(r=>r.officeId==='office-blue-springs-mayor').voteFor,1);
+ assert.ok(!html.includes('Mary D. Benes'));
+ const judicial=JSON.parse(fs.readFileSync(path.join(root,'src/data/elections/2026/judicial-retention.json')));
+ assert.equal(judicial.data.questions.length,6);
+ for(const question of judicial.data.questions){ assert.ok(html.includes(question.ballotQuestion)); assert.ok(!data.candidates.some(c=>c.displayName===question.name)); }
+ assert.equal((html.match(/data-retention=/g)||[]).length,6);
+ assert.match(html,/Inclusion does not recommend a Yes or No vote/);
+ assert.match(html,/letter-size PDF has two pages/);
+ assert.ok(!html.includes('County filings through August 3'));
+});
+test('web downloads exactly match regenerated publication artifacts',()=>{
+ for(const [source,target] of [['gage-county-gop-2026-candidate-flyer.pdf','print-flyer.pdf'],['gage-county-gop-2026-mobile-card.pdf','candidate-card.pdf'],['gage-county-gop-2026-mobile-card.png','candidate-card.png']])
+ assert.deepEqual(fs.readFileSync(path.join(root,'output/pdf',source)),fs.readFileSync(path.join(out,'assets',target)));
+});

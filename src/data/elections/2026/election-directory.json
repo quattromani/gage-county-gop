@@ -1,15 +1,15 @@
 {
   "schemaVersion": "1.0",
   "datasetId": "gage-gop-2026-publication-snapshot",
-  "lastValidated": "2026-08-12",
-  "filingSnapshotDate": "2026-08-03",
+  "lastValidated": "2026-10-26",
+  "filingSnapshotDate": "2026-09-29",
   "scope": "Documented Republican current general-election candidates. Derived publication snapshot, not final ballot certification.",
   "candidates": [
     {
       "candidateId": "cand-adam-german",
       "displayName": "Adam German",
       "ballotName": "Adam German",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-adrian-smith",
@@ -21,37 +21,37 @@
       "candidateId": "cand-alan-a-wallman",
       "displayName": "Alan A. Wallman",
       "ballotName": "Alan A. Wallman",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-alan-folkerts",
       "displayName": "Alan Folkerts",
       "ballotName": "Alan Folkerts",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-alan-w-wiese",
       "displayName": "Alan W. Wiese",
       "ballotName": "Alan W. Wiese",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-amanda-fanning",
       "displayName": "Amanda Fanning",
       "ballotName": "Amanda Fanning",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-andrew-w-adam",
       "displayName": "Andrew W. Adam",
       "ballotName": "Andrew W. Adam",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-andy-buhr",
       "displayName": "Andy Buhr",
       "ballotName": "Andy Buhr",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-angie-eberspacher",
@@ -60,22 +60,28 @@
       "nameSourceId": "src-gage-electionware-2026-primary"
     },
     {
+      "candidateId": "cand-anthony-m-landon",
+      "displayName": "Anthony M. Landon",
+      "ballotName": "Anthony M. Landon",
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
+    },
+    {
       "candidateId": "cand-bernita-antons",
       "displayName": "Bernita Antons",
       "ballotName": "Bernita Antons",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-beverly-r-acton",
       "displayName": "Beverly R. Acton",
       "ballotName": "Beverly R. Acton",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-brad-frerichs",
       "displayName": "Brad Frerichs",
       "ballotName": "Brad Frerichs",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-cally-ideus",
@@ -87,97 +93,97 @@
       "candidateId": "cand-carla-j-loemker",
       "displayName": "Carla J. Loemker",
       "ballotName": "Carla J. Loemker",
-      "nameSourceId": "src-ne-general-filing-snapshot-2026-07-15"
+      "nameSourceId": "src-ne-general-filing-snapshot-2026-09-11"
     },
     {
       "candidateId": "cand-carrie-keslar",
       "displayName": "Carrie Keslar",
       "ballotName": "Carrie Keslar",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-cheryl-moormeier",
       "displayName": "Cheryl Moormeier",
       "ballotName": "Cheryl Moormeier",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-chris-witulski",
       "displayName": "Chris Witulski",
       "ballotName": "Chris Witulski",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-connor-mason",
       "displayName": "Connor Mason",
       "ballotName": "Connor Mason",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-dan-crawford",
       "displayName": "Dan Crawford",
       "ballotName": "Dan Crawford",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-darin-frerichs",
       "displayName": "Darin Frerichs",
       "ballotName": "Darin Frerichs",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-david-a-zimmerman",
       "displayName": "David A. Zimmerman",
       "ballotName": "David A. Zimmerman",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-david-r-eskra",
       "displayName": "David R. Eskra",
       "ballotName": "David R. Eskra",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-dawn-hill",
       "displayName": "Dawn Hill",
       "ballotName": "Dawn Hill",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-dee-enevoldsen",
       "displayName": "Dee Enevoldsen",
       "ballotName": "Dee Enevoldsen",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-denise-spilker",
       "displayName": "Denise Spilker",
       "ballotName": "Denise Spilker",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-dennis-remmers",
       "displayName": "Dennis Remmers",
       "ballotName": "Dennis Remmers",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-dennis-sedlacek",
       "displayName": "Dennis Sedlacek",
       "ballotName": "Dennis Sedlacek",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-donald-wade",
       "displayName": "Donald Wade",
       "ballotName": "Donald Wade",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-donna-remmers-munoz",
       "displayName": "Donna Remmers Munoz",
       "ballotName": "Donna Remmers Munoz",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-duane-ruh",
@@ -189,60 +195,72 @@
       "candidateId": "cand-duane-w-smith",
       "displayName": "Duane W. Smith",
       "ballotName": "Duane W. Smith",
-      "nameSourceId": "src-ne-general-filing-snapshot-2026-07-15"
+      "nameSourceId": "src-ne-general-filing-snapshot-2026-09-11"
     },
     {
       "candidateId": "cand-eddie-dorn",
       "displayName": "Eddie Dorn",
       "ballotName": "Eddie Dorn",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
+    },
+    {
+      "candidateId": "cand-eric-g-malina",
+      "displayName": "Eric G. Malina",
+      "ballotName": "Eric G. Malina",
+      "nameSourceId": "src-ne-general-filing-snapshot-2026-09-11"
     },
     {
       "candidateId": "cand-erich-tiemann",
       "displayName": "Erich Tiemann",
       "ballotName": "Erich Tiemann",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-gary-lytle",
       "displayName": "Gary Lytle",
       "ballotName": "Gary Lytle",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
+    },
+    {
+      "candidateId": "cand-gene-radar-reedy",
+      "displayName": "Gene Radar Reedy",
+      "ballotName": "Gene Radar Reedy",
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-isaac-frerichs",
       "displayName": "Isaac Frerichs",
       "ballotName": "Isaac Frerichs",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-jason-allington",
       "displayName": "Jason Allington",
       "ballotName": "Jason Allington",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-jason-siems",
       "displayName": "Jason Siems",
       "ballotName": "Jason Siems",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-jeff-argo",
       "displayName": "Jeff Argo",
       "ballotName": "Jeff Argo",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-jeff-gronewold",
       "displayName": "Jeff Gronewold",
       "ballotName": "Jeff Gronewold",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-jim-pillen",
       "displayName": "Jim Pillen",
-      "ballotName": "Jim Pillen and (undeclared)",
+      "ballotName": "Jim Pillen and Joe Kelly",
       "nameSourceId": "src-gage-electionware-2026-primary"
     },
     {
@@ -255,103 +273,103 @@
       "candidateId": "cand-john-busboom",
       "displayName": "John Busboom",
       "ballotName": "John Busboom",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-john-kaiser",
       "displayName": "John Kaiser",
       "ballotName": "John Kaiser",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-jordan-busboom",
       "displayName": "Jordan Busboom",
       "ballotName": "Jordan Busboom",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-jordan-n-freeman",
       "displayName": "Jordan N. Freeman",
       "ballotName": "Jordan N. Freeman",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-justin-m-wiegand",
       "displayName": "Justin M. Wiegand",
       "ballotName": "Justin M. Wiegand",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-kent-buss",
       "displayName": "Kent Buss",
       "ballotName": "Kent Buss",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-kyle-dorn",
       "displayName": "Kyle Dorn",
       "ballotName": "Kyle Dorn",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-kyle-pohlmann",
       "displayName": "Kyle Pohlmann",
       "ballotName": "Kyle Pohlmann",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-les-blythe",
       "displayName": "Les Blythe",
       "ballotName": "Les Blythe",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-lewis-carr",
       "displayName": "Lewis Carr",
       "ballotName": "Lewis Carr",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-lisa-kohout",
       "displayName": "Lisa Kohout",
       "ballotName": "Lisa Kohout",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-lisa-sohl",
       "displayName": "Lisa Sohl",
       "ballotName": "Lisa Sohl",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-marc-e-hroch",
       "displayName": "Marc E. Hroch",
       "ballotName": "Marc E. Hroch",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-mark-p-kujath",
       "displayName": "Mark P. Kujath",
       "ballotName": "Mark P. Kujath",
-      "nameSourceId": "src-ne-general-filing-snapshot-2026-07-15"
+      "nameSourceId": "src-ne-general-filing-snapshot-2026-09-11"
     },
     {
       "candidateId": "cand-mark-wieden",
       "displayName": "Mark Wieden",
       "ballotName": "Mark Wieden",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-max-quattromani",
       "displayName": "Max Quattromani",
       "ballotName": "Max Quattromani",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-michael-tallant",
       "displayName": "Michael Tallant",
       "ballotName": "Michael Tallant",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-mike-foley",
@@ -369,7 +387,7 @@
       "candidateId": "cand-mike-mclain",
       "displayName": "Mike McLain",
       "ballotName": "Mike McLain",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-pete-ricketts",
@@ -381,25 +399,25 @@
       "candidateId": "cand-robert-l-rhine",
       "displayName": "Robert L. Rhine",
       "ballotName": "Robert L. Rhine",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-ross-trauernicht",
       "displayName": "Ross Trauernicht",
       "ballotName": "Ross Trauernicht",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-russell-harms",
       "displayName": "Russell Harms",
       "ballotName": "Russell Harms",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-sabrina-m-given",
       "displayName": "Sabrina M. Given",
       "ballotName": "Sabrina M. Given",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-scott-petersen",
@@ -411,19 +429,19 @@
       "candidateId": "cand-scott-r-habluetzel",
       "displayName": "Scott R. Habluetzel",
       "ballotName": "Scott R. Habluetzel",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-shannon-brydl",
       "displayName": "Shannon Brydl",
       "ballotName": "Shannon Brydl",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-shawn-e-mencl",
       "displayName": "Shawn E. Mencl",
       "ballotName": "Shawn E. Mencl",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-spencer-behrens",
@@ -435,13 +453,13 @@
       "candidateId": "cand-steve-robeson",
       "displayName": "Steve Robeson",
       "ballotName": "Steve Robeson",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-terry-doyle",
       "displayName": "Terry Doyle",
       "ballotName": "Terry Doyle",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-terry-jurgens",
@@ -453,38 +471,38 @@
       "candidateId": "cand-theron-troxel",
       "displayName": "Theron Troxel",
       "ballotName": "Theron Troxel",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-todd-wilcox",
       "displayName": "Todd Wilcox",
       "ballotName": "Todd Wilcox",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-travis-a-reiman",
       "displayName": "Travis A. Reiman",
       "ballotName": "Travis A. Reiman",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-travus-m-snyder",
       "displayName": "Travus M. Snyder",
       "ballotName": "Travus M. Snyder",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     },
     {
       "candidateId": "cand-wes-cammack",
       "displayName": "Wes Cammack",
       "ballotName": "Wes Cammack",
-      "nameSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "nameSourceId": "src-gage-county-filing-snapshot-2026-10-06"
     }
   ],
   "offices": [
     {
       "officeId": "office-us-senator",
       "officeName": "United States Senate",
-      "category": "State Offices",
+      "category": "State & Federal Offices",
       "district": null,
       "partisanStatus": "Partisan",
       "voteFor": 1
@@ -492,7 +510,7 @@
     {
       "officeId": "office-us-house-district-3",
       "officeName": "United States House - District 3",
-      "category": "State Offices",
+      "category": "State & Federal Offices",
       "district": "District 3",
       "partisanStatus": "Partisan",
       "voteFor": 1
@@ -500,7 +518,7 @@
     {
       "officeId": "office-nebraska-governor",
       "officeName": "Nebraska Governor and Lieutenant Governor",
-      "category": "State Offices",
+      "category": "State & Federal Offices",
       "district": null,
       "partisanStatus": "Partisan",
       "voteFor": 1
@@ -508,7 +526,7 @@
     {
       "officeId": "office-nebraska-secretary-of-state",
       "officeName": "Nebraska Secretary of State",
-      "category": "State Offices",
+      "category": "State & Federal Offices",
       "district": null,
       "partisanStatus": "Partisan",
       "voteFor": 1
@@ -516,7 +534,7 @@
     {
       "officeId": "office-nebraska-state-treasurer",
       "officeName": "Nebraska State Treasurer",
-      "category": "State Offices",
+      "category": "State & Federal Offices",
       "district": null,
       "partisanStatus": "Partisan",
       "voteFor": 1
@@ -524,7 +542,7 @@
     {
       "officeId": "office-nebraska-attorney-general",
       "officeName": "Nebraska Attorney General",
-      "category": "State Offices",
+      "category": "State & Federal Offices",
       "district": null,
       "partisanStatus": "Partisan",
       "voteFor": 1
@@ -532,7 +550,7 @@
     {
       "officeId": "office-nebraska-state-auditor",
       "officeName": "Nebraska State Auditor",
-      "category": "State Offices",
+      "category": "State & Federal Offices",
       "district": null,
       "partisanStatus": "Partisan",
       "voteFor": 1
@@ -540,7 +558,7 @@
     {
       "officeId": "office-nebraska-legislature-district-30",
       "officeName": "Nebraska Legislature - District 30",
-      "category": "State Offices",
+      "category": "State & Federal Offices",
       "district": "District 30",
       "partisanStatus": "Nonpartisan",
       "voteFor": 1
@@ -548,7 +566,7 @@
     {
       "officeId": "office-state-board-of-education-district-5",
       "officeName": "State Board of Education - District 5",
-      "category": "State Offices",
+      "category": "State & Federal Offices",
       "district": "District 5",
       "partisanStatus": "Nonpartisan",
       "voteFor": 1
@@ -680,6 +698,14 @@
       "district": null,
       "partisanStatus": "Nonpartisan",
       "voteFor": 4
+    },
+    {
+      "officeId": "office-blue-springs-mayor",
+      "officeName": "Blue Springs Mayor",
+      "category": "Cities & Villages",
+      "district": null,
+      "partisanStatus": "Nonpartisan",
+      "voteFor": 1
     },
     {
       "officeId": "office-adams-village-board",
@@ -856,6 +882,14 @@
       "district": "District 7",
       "partisanStatus": "Nonpartisan",
       "voteFor": 1
+    },
+    {
+      "officeId": "office-esu-6-district-5",
+      "officeName": "Educational Service Unit 6 - District 5",
+      "category": "Other Local Districts",
+      "district": "District 5",
+      "partisanStatus": "Nonpartisan",
+      "voteFor": 1
     }
   ],
   "affiliations": [
@@ -863,475 +897,657 @@
       "affiliationId": "aff-adam-german-2026",
       "candidateId": "cand-adam-german",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-adrian-smith-2026",
       "candidateId": "cand-adrian-smith",
       "label": "Republican",
-      "sourceId": "src-gage-electionware-2026-primary"
+      "sourceId": "src-gage-electionware-2026-primary",
+      "evidenceType": "primary-participation",
+      "verifiedDate": "2026-07-15"
     },
     {
       "affiliationId": "aff-alan-a-wallman-2026",
       "candidateId": "cand-alan-a-wallman",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-alan-folkerts-2026",
       "candidateId": "cand-alan-folkerts",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-alan-w-wiese-2026",
       "candidateId": "cand-alan-w-wiese",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-amanda-fanning-2026",
       "candidateId": "cand-amanda-fanning",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-andrew-w-adam-2026",
       "candidateId": "cand-andrew-w-adam",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-andy-buhr-2026",
       "candidateId": "cand-andy-buhr",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-08-12"
     },
     {
       "affiliationId": "aff-angie-eberspacher-2026",
       "candidateId": "cand-angie-eberspacher",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
+    },
+    {
+      "affiliationId": "aff-anthony-m-landon-2026",
+      "candidateId": "cand-anthony-m-landon",
+      "label": "Republican",
+      "sourceId": "src-gage-county-voter-roll-2026-10-13",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-10-13"
     },
     {
       "affiliationId": "aff-bernita-antons-2026",
       "candidateId": "cand-bernita-antons",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-beverly-r-acton-2026",
       "candidateId": "cand-beverly-r-acton",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-brad-frerichs-2026",
       "candidateId": "cand-brad-frerichs",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-cally-ideus-2026",
       "candidateId": "cand-cally-ideus",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-carla-j-loemker-2026",
       "candidateId": "cand-carla-j-loemker",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-carrie-keslar-2026",
       "candidateId": "cand-carrie-keslar",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-cheryl-moormeier-2026",
       "candidateId": "cand-cheryl-moormeier",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-chris-witulski-2026",
       "candidateId": "cand-chris-witulski",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-connor-mason-2026",
       "candidateId": "cand-connor-mason",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-dan-crawford-2026",
       "candidateId": "cand-dan-crawford",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-darin-frerichs-2026",
       "candidateId": "cand-darin-frerichs",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-david-a-zimmerman-2026",
       "candidateId": "cand-david-a-zimmerman",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-david-r-eskra-2026",
       "candidateId": "cand-david-r-eskra",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-dawn-hill-2026",
       "candidateId": "cand-dawn-hill",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-dee-enevoldsen-2026",
       "candidateId": "cand-dee-enevoldsen",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-denise-spilker-2026",
       "candidateId": "cand-denise-spilker",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-dennis-remmers-2026",
       "candidateId": "cand-dennis-remmers",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-dennis-sedlacek-2026",
       "candidateId": "cand-dennis-sedlacek",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-08-12"
     },
     {
       "affiliationId": "aff-donald-wade-2026",
       "candidateId": "cand-donald-wade",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-08-12"
     },
     {
       "affiliationId": "aff-donna-remmers-munoz-2026",
       "candidateId": "cand-donna-remmers-munoz",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-duane-ruh-2026",
       "candidateId": "cand-duane-ruh",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-duane-w-smith-2026",
       "candidateId": "cand-duane-w-smith",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-eddie-dorn-2026",
       "candidateId": "cand-eddie-dorn",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
+    },
+    {
+      "affiliationId": "aff-eric-g-malina-2026",
+      "candidateId": "cand-eric-g-malina",
+      "label": "Republican",
+      "sourceId": "src-vip-eric-g-malina-2026-10-26",
+      "evidenceType": "reported-affiliation",
+      "verifiedDate": "2026-10-26"
     },
     {
       "affiliationId": "aff-erich-tiemann-2026",
       "candidateId": "cand-erich-tiemann",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-gary-lytle-2026",
       "candidateId": "cand-gary-lytle",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
+    },
+    {
+      "affiliationId": "aff-gene-radar-reedy-2026",
+      "candidateId": "cand-gene-radar-reedy",
+      "label": "Republican",
+      "sourceId": "src-gage-county-voter-roll-2026-10-13",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-10-13"
     },
     {
       "affiliationId": "aff-isaac-frerichs-2026",
       "candidateId": "cand-isaac-frerichs",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-jason-allington-2026",
       "candidateId": "cand-jason-allington",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-jason-siems-2026",
       "candidateId": "cand-jason-siems",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-jeff-argo-2026",
       "candidateId": "cand-jeff-argo",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-jeff-gronewold-2026",
       "candidateId": "cand-jeff-gronewold",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-jim-pillen-2026",
       "candidateId": "cand-jim-pillen",
       "label": "Republican",
-      "sourceId": "src-gage-electionware-2026-primary"
+      "sourceId": "src-gage-electionware-2026-primary",
+      "evidenceType": "primary-participation",
+      "verifiedDate": "2026-07-15"
     },
     {
       "affiliationId": "aff-joey-spellerberg-2026",
       "candidateId": "cand-joey-spellerberg",
       "label": "Republican",
-      "sourceId": "src-gage-electionware-2026-primary"
+      "sourceId": "src-gage-electionware-2026-primary",
+      "evidenceType": "primary-participation",
+      "verifiedDate": "2026-07-15"
     },
     {
       "affiliationId": "aff-john-busboom-2026",
       "candidateId": "cand-john-busboom",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-08-12"
     },
     {
       "affiliationId": "aff-john-kaiser-2026",
       "candidateId": "cand-john-kaiser",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-jordan-busboom-2026",
       "candidateId": "cand-jordan-busboom",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-jordan-n-freeman-2026",
       "candidateId": "cand-jordan-n-freeman",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-justin-m-wiegand-2026",
       "candidateId": "cand-justin-m-wiegand",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-kent-buss-2026",
       "candidateId": "cand-kent-buss",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-kyle-dorn-2026",
       "candidateId": "cand-kyle-dorn",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-kyle-pohlmann-2026",
       "candidateId": "cand-kyle-pohlmann",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-les-blythe-2026",
       "candidateId": "cand-les-blythe",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-lewis-carr-2026",
       "candidateId": "cand-lewis-carr",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-lisa-kohout-2026",
       "candidateId": "cand-lisa-kohout",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-lisa-sohl-2026",
       "candidateId": "cand-lisa-sohl",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-marc-e-hroch-2026",
       "candidateId": "cand-marc-e-hroch",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-08-12"
     },
     {
       "affiliationId": "aff-mark-p-kujath-2026",
       "candidateId": "cand-mark-p-kujath",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-mark-wieden-2026",
       "candidateId": "cand-mark-wieden",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-max-quattromani-2026",
       "candidateId": "cand-max-quattromani",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-michael-tallant-2026",
       "candidateId": "cand-michael-tallant",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-mike-foley-2026",
       "candidateId": "cand-mike-foley",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-mike-hilgers-2026",
       "candidateId": "cand-mike-hilgers",
       "label": "Republican",
-      "sourceId": "src-gage-electionware-2026-primary"
+      "sourceId": "src-gage-electionware-2026-primary",
+      "evidenceType": "primary-participation",
+      "verifiedDate": "2026-07-15"
     },
     {
       "affiliationId": "aff-mike-mclain-2026",
       "candidateId": "cand-mike-mclain",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-pete-ricketts-2026",
       "candidateId": "cand-pete-ricketts",
       "label": "Republican",
-      "sourceId": "src-gage-electionware-2026-primary"
+      "sourceId": "src-gage-electionware-2026-primary",
+      "evidenceType": "primary-participation",
+      "verifiedDate": "2026-07-15"
     },
     {
       "affiliationId": "aff-robert-l-rhine-2026",
       "candidateId": "cand-robert-l-rhine",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-08-12"
     },
     {
       "affiliationId": "aff-ross-trauernicht-2026",
       "candidateId": "cand-ross-trauernicht",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-russell-harms-2026",
       "candidateId": "cand-russell-harms",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-sabrina-m-given-2026",
       "candidateId": "cand-sabrina-m-given",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-scott-petersen-2026",
       "candidateId": "cand-scott-petersen",
       "label": "Republican",
-      "sourceId": "src-gage-electionware-2026-primary"
+      "sourceId": "src-gage-electionware-2026-primary",
+      "evidenceType": "primary-participation",
+      "verifiedDate": "2026-07-15"
     },
     {
       "affiliationId": "aff-scott-r-habluetzel-2026",
       "candidateId": "cand-scott-r-habluetzel",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-shannon-brydl-2026",
       "candidateId": "cand-shannon-brydl",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-shawn-e-mencl-2026",
       "candidateId": "cand-shawn-e-mencl",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-spencer-behrens-2026",
       "candidateId": "cand-spencer-behrens",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-steve-robeson-2026",
       "candidateId": "cand-steve-robeson",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-terry-doyle-2026",
       "candidateId": "cand-terry-doyle",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-terry-jurgens-2026",
       "candidateId": "cand-terry-jurgens",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-theron-troxel-2026",
       "candidateId": "cand-theron-troxel",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-todd-wilcox-2026",
       "candidateId": "cand-todd-wilcox",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-travis-a-reiman-2026",
       "candidateId": "cand-travis-a-reiman",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-08-12"
     },
     {
       "affiliationId": "aff-travus-m-snyder-2026",
       "candidateId": "cand-travus-m-snyder",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     },
     {
       "affiliationId": "aff-wes-cammack-2026",
       "candidateId": "cand-wes-cammack",
       "label": "Republican",
-      "sourceId": "src-ne-votercheck"
+      "sourceId": "src-ne-votercheck",
+      "evidenceType": "registration",
+      "verifiedDate": "2026-07-16"
     }
   ],
   "candidacies": [
@@ -1342,8 +1558,10 @@
       "affiliationId": "aff-andy-buhr-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-steve-robeson-office-adams-village-board-contest-office-adams-village-board-2026-general-filing-snapshot",
@@ -1352,8 +1570,10 @@
       "affiliationId": "aff-steve-robeson-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-david-a-zimmerman-office-barneston-township-board-contest-office-barneston-township-board-2026-general-filing-snapshot",
@@ -1362,8 +1582,10 @@
       "affiliationId": "aff-david-a-zimmerman-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-jason-allington-office-barneston-township-board-contest-office-barneston-township-board-2026-general-filing-snapshot",
@@ -1372,8 +1594,10 @@
       "affiliationId": "aff-jason-allington-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-lewis-carr-office-barneston-township-board-contest-office-barneston-township-board-2026-general-filing-snapshot",
@@ -1382,8 +1606,10 @@
       "affiliationId": "aff-lewis-carr-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-scott-r-habluetzel-office-barneston-village-board-contest-office-barneston-village-board-2026-general-filing-snapshot",
@@ -1392,8 +1618,10 @@
       "affiliationId": "aff-scott-r-habluetzel-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-todd-wilcox-office-barneston-village-board-contest-office-barneston-village-board-2026-general-filing-snapshot",
@@ -1402,8 +1630,10 @@
       "affiliationId": "aff-todd-wilcox-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-david-r-eskra-office-beatrice-city-council-contest-office-beatrice-city-council-2026-general-filing-snapshot",
@@ -1412,8 +1642,10 @@
       "affiliationId": "aff-david-r-eskra-2026",
       "electionStageGroup": "current-general-election",
       "seat": "Ward 2",
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-mike-mclain-office-beatrice-city-council-contest-office-beatrice-city-council-2026-general-filing-snapshot",
@@ -1422,8 +1654,10 @@
       "affiliationId": "aff-mike-mclain-2026",
       "electionStageGroup": "current-general-election",
       "seat": "Ward 3",
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-terry-doyle-office-beatrice-city-council-contest-office-beatrice-city-council-2026-general-filing-snapshot",
@@ -1432,8 +1666,10 @@
       "affiliationId": "aff-terry-doyle-2026",
       "electionStageGroup": "current-general-election",
       "seat": "Ward 1",
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-duane-ruh-office-beatrice-mayor-contest-office-beatrice-mayor-nonpartisan-primary",
@@ -1441,8 +1677,9 @@
       "officeId": "office-beatrice-mayor",
       "affiliationId": "aff-duane-ruh-2026",
       "electionStageGroup": "current-general-election",
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-electionware-2026-primary"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-electionware-2026-primary",
+      "generalElectionStatus": "Appears on the current general-election filing list; ballot status remains subject to official certification."
     },
     {
       "candidacyId": "cdy-cand-dee-enevoldsen-office-beatrice-public-schools-contest-office-beatrice-public-schools-2026-general-filing-snapshot",
@@ -1451,8 +1688,10 @@
       "affiliationId": "aff-dee-enevoldsen-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "6 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-sabrina-m-given-office-beatrice-public-schools-contest-office-beatrice-public-schools-2026-general-filing-snapshot",
@@ -1461,8 +1700,22 @@
       "affiliationId": "aff-sabrina-m-given-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "6 candidates are currently listed; general-election contest status is not yet final."
+    },
+    {
+      "candidacyId": "cdy-cand-gene-radar-reedy-office-blue-springs-mayor-contest-office-blue-springs-mayor-2026-general-filing-snapshot",
+      "candidateId": "cand-gene-radar-reedy",
+      "officeId": "office-blue-springs-mayor",
+      "affiliationId": "aff-gene-radar-reedy-2026",
+      "electionStageGroup": "current-general-election",
+      "seat": null,
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "By petition",
+      "generalElectionStatus": "By-petition candidate listed in the official general-election candidate list."
     },
     {
       "candidacyId": "cdy-cand-bernita-antons-office-clatonia-village-board-contest-office-clatonia-village-board-2026-general-filing-snapshot",
@@ -1471,8 +1724,10 @@
       "affiliationId": "aff-bernita-antons-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-carrie-keslar-office-clatonia-village-board-contest-office-clatonia-village-board-2026-general-filing-snapshot",
@@ -1481,8 +1736,10 @@
       "affiliationId": "aff-carrie-keslar-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-john-kaiser-office-clatonia-village-board-contest-office-clatonia-village-board-2026-general-filing-snapshot",
@@ -1491,8 +1748,10 @@
       "affiliationId": "aff-john-kaiser-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-shannon-brydl-office-clatonia-village-board-contest-office-clatonia-village-board-2026-general-filing-snapshot",
@@ -1501,8 +1760,10 @@
       "affiliationId": "aff-shannon-brydl-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-adam-german-office-cortland-village-board-contest-office-cortland-village-board-2026-general-filing-snapshot",
@@ -1511,8 +1772,10 @@
       "affiliationId": "aff-adam-german-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-cheryl-moormeier-office-cortland-village-board-contest-office-cortland-village-board-2026-general-filing-snapshot",
@@ -1521,8 +1784,10 @@
       "affiliationId": "aff-cheryl-moormeier-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-lisa-kohout-office-cortland-village-board-contest-office-cortland-village-board-2026-general-filing-snapshot",
@@ -1531,8 +1796,10 @@
       "affiliationId": "aff-lisa-kohout-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-carla-j-loemker-office-esu-5-district-5-contest-office-esu-5-district-5-2026-general-filing-snapshot",
@@ -1541,8 +1808,10 @@
       "affiliationId": "aff-carla-j-loemker-2026",
       "electionStageGroup": "current-general-election",
       "seat": "District 5",
-      "filingSourceId": "src-ne-general-filing-snapshot-2026-07-15",
-      "stageSourceId": "src-ne-general-filing-snapshot-2026-07-15"
+      "filingSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "stageSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "Listed in the final statewide general-election candidate list."
     },
     {
       "candidacyId": "cdy-cand-duane-w-smith-office-esu-5-district-7-contest-office-esu-5-district-7-2026-general-filing-snapshot",
@@ -1551,8 +1820,22 @@
       "affiliationId": "aff-duane-w-smith-2026",
       "electionStageGroup": "current-general-election",
       "seat": "District 7",
-      "filingSourceId": "src-ne-general-filing-snapshot-2026-07-15",
-      "stageSourceId": "src-ne-general-filing-snapshot-2026-07-15"
+      "filingSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "stageSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "Listed in the final statewide general-election candidate list."
+    },
+    {
+      "candidacyId": "cdy-cand-eric-g-malina-office-esu-6-district-5-contest-office-esu-6-district-5-2026-general-filing-snapshot",
+      "candidateId": "cand-eric-g-malina",
+      "officeId": "office-esu-6-district-5",
+      "affiliationId": "aff-eric-g-malina-2026",
+      "electionStageGroup": "current-general-election",
+      "seat": "District 5",
+      "filingSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "stageSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "Listed in the final statewide general-election candidate list."
     },
     {
       "candidacyId": "cdy-cand-alan-w-wiese-office-filley-township-board-contest-office-filley-township-board-2026-general-filing-snapshot",
@@ -1561,8 +1844,10 @@
       "affiliationId": "aff-alan-w-wiese-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-dennis-remmers-office-filley-township-board-contest-office-filley-township-board-2026-general-filing-snapshot",
@@ -1571,8 +1856,10 @@
       "affiliationId": "aff-dennis-remmers-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-les-blythe-office-filley-township-board-contest-office-filley-township-board-2026-general-filing-snapshot",
@@ -1581,8 +1868,10 @@
       "affiliationId": "aff-les-blythe-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-connor-mason-office-filley-village-board-contest-office-filley-village-board-2026-general-filing-snapshot",
@@ -1591,8 +1880,10 @@
       "affiliationId": "aff-connor-mason-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-isaac-frerichs-office-filley-village-board-contest-office-filley-village-board-2026-general-filing-snapshot",
@@ -1601,8 +1892,10 @@
       "affiliationId": "aff-isaac-frerichs-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-jordan-n-freeman-office-freeman-public-schools-contest-office-freeman-public-schools-2026-general-filing-snapshot",
@@ -1611,8 +1904,10 @@
       "affiliationId": "aff-jordan-n-freeman-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-kyle-dorn-office-freeman-public-schools-contest-office-freeman-public-schools-2026-general-filing-snapshot",
@@ -1621,8 +1916,10 @@
       "affiliationId": "aff-kyle-dorn-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-shawn-e-mencl-office-freeman-public-schools-contest-office-freeman-public-schools-2026-general-filing-snapshot",
@@ -1631,8 +1928,10 @@
       "affiliationId": "aff-shawn-e-mencl-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-theron-troxel-office-freeman-public-schools-contest-office-freeman-public-schools-2026-general-filing-snapshot",
@@ -1641,8 +1940,10 @@
       "affiliationId": "aff-theron-troxel-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-max-quattromani-office-gage-county-assessor-contest-office-gage-county-assessor-2026-general-filing-snapshot",
@@ -1651,8 +1952,10 @@
       "affiliationId": "aff-max-quattromani-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-primary-sample-ballots-2026"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-primary-sample-ballots-2026",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "Only candidate currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-amanda-fanning-office-gage-county-attorney-contest-office-gage-county-attorney-2026-general-filing-snapshot",
@@ -1661,8 +1964,10 @@
       "affiliationId": "aff-amanda-fanning-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-primary-sample-ballots-2026"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-primary-sample-ballots-2026",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "Only candidate currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-dawn-hill-office-gage-county-clerk-contest-office-gage-county-clerk-2026-general-filing-snapshot",
@@ -1671,8 +1976,10 @@
       "affiliationId": "aff-dawn-hill-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-primary-sample-ballots-2026"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-primary-sample-ballots-2026",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "Only candidate currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-donna-remmers-munoz-office-gage-county-register-of-deeds-contest-office-gage-county-register-of-deeds-2026-general-filing-snapshot",
@@ -1681,8 +1988,10 @@
       "affiliationId": "aff-donna-remmers-munoz-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-primary-sample-ballots-2026"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-primary-sample-ballots-2026",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "Only candidate currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-spencer-behrens-office-gage-county-sheriff-contest-office-gage-county-sheriff-republican-primary",
@@ -1690,8 +1999,9 @@
       "officeId": "office-gage-county-sheriff",
       "affiliationId": "aff-spencer-behrens-2026",
       "electionStageGroup": "current-general-election",
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-electionware-2026-primary"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-electionware-2026-primary",
+      "generalElectionStatus": "Appears on the current general-election filing list; ballot status remains subject to official certification."
     },
     {
       "candidacyId": "cdy-cand-eddie-dorn-office-gage-county-supervisor-district-1-contest-office-gage-county-supervisor-district-1-2026-general-filing-snapshot",
@@ -1700,8 +2010,10 @@
       "affiliationId": "aff-eddie-dorn-2026",
       "electionStageGroup": "current-general-election",
       "seat": "District 1",
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-primary-sample-ballots-2026"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-primary-sample-ballots-2026",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "Only candidate currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-erich-tiemann-office-gage-county-supervisor-district-3-contest-office-gage-county-supervisor-district-3-2026-general-filing-snapshot",
@@ -1710,8 +2022,10 @@
       "affiliationId": "aff-erich-tiemann-2026",
       "electionStageGroup": "current-general-election",
       "seat": "District 3",
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-primary-sample-ballots-2026"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-primary-sample-ballots-2026",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "Only candidate currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-gary-lytle-office-gage-county-supervisor-district-5-contest-office-gage-county-supervisor-district-5-2026-general-filing-snapshot",
@@ -1720,8 +2034,10 @@
       "affiliationId": "aff-gary-lytle-2026",
       "electionStageGroup": "current-general-election",
       "seat": "District 5",
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-primary-sample-ballots-2026"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-primary-sample-ballots-2026",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "Only candidate currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-terry-jurgens-office-gage-county-supervisor-district-7-contest-office-gage-county-supervisor-district-7-republican-primary",
@@ -1729,8 +2045,9 @@
       "officeId": "office-gage-county-supervisor-district-7",
       "affiliationId": "aff-terry-jurgens-2026",
       "electionStageGroup": "current-general-election",
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-electionware-2026-primary"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-electionware-2026-primary",
+      "generalElectionStatus": "Appears on the current general-election filing list; ballot status remains subject to official certification."
     },
     {
       "candidacyId": "cdy-cand-chris-witulski-office-gage-county-surveyor-contest-office-gage-county-surveyor-2026-general-filing-snapshot",
@@ -1739,8 +2056,10 @@
       "affiliationId": "aff-chris-witulski-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-primary-sample-ballots-2026"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-primary-sample-ballots-2026",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "Only candidate currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-lisa-sohl-office-gage-county-treasurer-contest-office-gage-county-treasurer-2026-general-filing-snapshot",
@@ -1749,8 +2068,10 @@
       "affiliationId": "aff-lisa-sohl-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-primary-sample-ballots-2026"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-primary-sample-ballots-2026",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "Only candidate currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-jason-siems-office-grant-township-board-contest-office-grant-township-board-2026-general-filing-snapshot",
@@ -1759,8 +2080,10 @@
       "affiliationId": "aff-jason-siems-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-kyle-pohlmann-office-grant-township-board-contest-office-grant-township-board-2026-general-filing-snapshot",
@@ -1769,8 +2092,10 @@
       "affiliationId": "aff-kyle-pohlmann-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-wes-cammack-office-grant-township-board-contest-office-grant-township-board-2026-general-filing-snapshot",
@@ -1779,8 +2104,10 @@
       "affiliationId": "aff-wes-cammack-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-kent-buss-office-hanover-township-board-contest-office-hanover-township-board-2026-general-filing-snapshot",
@@ -1789,8 +2116,10 @@
       "affiliationId": "aff-kent-buss-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "2 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-john-busboom-office-holt-township-board-contest-office-holt-township-board-2026-general-filing-snapshot",
@@ -1799,8 +2128,10 @@
       "affiliationId": "aff-john-busboom-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-jordan-busboom-office-holt-township-board-contest-office-holt-township-board-2026-general-filing-snapshot",
@@ -1809,8 +2140,10 @@
       "affiliationId": "aff-jordan-busboom-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-mark-wieden-office-island-grove-township-board-contest-office-island-grove-township-board-2026-general-filing-snapshot",
@@ -1819,8 +2152,10 @@
       "affiliationId": "aff-mark-wieden-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-robert-l-rhine-office-island-grove-township-board-contest-office-island-grove-township-board-2026-general-filing-snapshot",
@@ -1829,8 +2164,10 @@
       "affiliationId": "aff-robert-l-rhine-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-marc-e-hroch-office-liberty-township-board-contest-office-liberty-township-board-2026-general-filing-snapshot",
@@ -1839,8 +2176,10 @@
       "affiliationId": "aff-marc-e-hroch-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-dennis-sedlacek-office-liberty-village-board-contest-office-liberty-village-board-2026-general-filing-snapshot",
@@ -1849,8 +2188,10 @@
       "affiliationId": "aff-dennis-sedlacek-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-donald-wade-office-liberty-village-board-contest-office-liberty-village-board-2026-general-filing-snapshot",
@@ -1859,8 +2200,10 @@
       "affiliationId": "aff-donald-wade-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-michael-tallant-office-liberty-village-board-contest-office-liberty-village-board-2026-general-filing-snapshot",
@@ -1869,8 +2212,10 @@
       "affiliationId": "aff-michael-tallant-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-dan-crawford-office-lincoln-township-board-contest-office-lincoln-township-board-2026-general-filing-snapshot",
@@ -1879,8 +2224,10 @@
       "affiliationId": "aff-dan-crawford-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-justin-m-wiegand-office-lincoln-township-board-contest-office-lincoln-township-board-2026-general-filing-snapshot",
@@ -1889,8 +2236,10 @@
       "affiliationId": "aff-justin-m-wiegand-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-alan-folkerts-office-logan-township-board-contest-office-logan-township-board-2026-general-filing-snapshot",
@@ -1899,8 +2248,10 @@
       "affiliationId": "aff-alan-folkerts-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-jeff-gronewold-office-logan-township-board-contest-office-logan-township-board-2026-general-filing-snapshot",
@@ -1909,8 +2260,10 @@
       "affiliationId": "aff-jeff-gronewold-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-mike-hilgers-office-nebraska-attorney-general-contest-office-nebraska-attorney-general-republican-primary",
@@ -1918,8 +2271,9 @@
       "officeId": "office-nebraska-attorney-general",
       "affiliationId": "aff-mike-hilgers-2026",
       "electionStageGroup": "current-general-election",
-      "filingSourceId": "src-ne-general-filing-snapshot-2026-07-15",
-      "stageSourceId": "src-ne-primary-canvass-2026"
+      "filingSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "stageSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "generalElectionStatus": "Listed in the final statewide general-election candidate list."
     },
     {
       "candidacyId": "cdy-cand-jim-pillen-office-nebraska-governor-contest-office-nebraska-governor-republican-primary",
@@ -1927,8 +2281,9 @@
       "officeId": "office-nebraska-governor",
       "affiliationId": "aff-jim-pillen-2026",
       "electionStageGroup": "current-general-election",
-      "filingSourceId": "src-ne-general-filing-snapshot-2026-07-15",
-      "stageSourceId": "src-ne-primary-canvass-2026"
+      "filingSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "stageSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "generalElectionStatus": "Listed in the final statewide general-election candidate list."
     },
     {
       "candidacyId": "cdy-cand-cally-ideus-office-nebraska-legislature-district-30-contest-office-nebraska-legislature-district-30-nonpartisan-primary",
@@ -1936,8 +2291,9 @@
       "officeId": "office-nebraska-legislature-district-30",
       "affiliationId": "aff-cally-ideus-2026",
       "electionStageGroup": "current-general-election",
-      "filingSourceId": "src-ne-general-filing-snapshot-2026-07-15",
-      "stageSourceId": "src-ne-primary-canvass-2026"
+      "filingSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "stageSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "generalElectionStatus": "Listed in the final statewide general-election candidate list."
     },
     {
       "candidacyId": "cdy-cand-scott-petersen-office-nebraska-secretary-of-state-contest-office-nebraska-secretary-of-state-republican-primary",
@@ -1945,8 +2301,9 @@
       "officeId": "office-nebraska-secretary-of-state",
       "affiliationId": "aff-scott-petersen-2026",
       "electionStageGroup": "current-general-election",
-      "filingSourceId": "src-ne-general-filing-snapshot-2026-07-15",
-      "stageSourceId": "src-ne-primary-canvass-2026"
+      "filingSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "stageSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "generalElectionStatus": "Listed in the final statewide general-election candidate list."
     },
     {
       "candidacyId": "cdy-cand-mike-foley-office-nebraska-state-auditor-contest-office-nebraska-state-auditor-republican-primary",
@@ -1954,8 +2311,9 @@
       "officeId": "office-nebraska-state-auditor",
       "affiliationId": "aff-mike-foley-2026",
       "electionStageGroup": "current-general-election",
-      "filingSourceId": "src-ne-general-filing-snapshot-2026-07-15",
-      "stageSourceId": "src-ne-primary-canvass-2026"
+      "filingSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "stageSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "generalElectionStatus": "Listed in the final statewide general-election candidate list."
     },
     {
       "candidacyId": "cdy-cand-joey-spellerberg-office-nebraska-state-treasurer-contest-office-nebraska-state-treasurer-republican-primary",
@@ -1963,8 +2321,9 @@
       "officeId": "office-nebraska-state-treasurer",
       "affiliationId": "aff-joey-spellerberg-2026",
       "electionStageGroup": "current-general-election",
-      "filingSourceId": "src-ne-general-filing-snapshot-2026-07-15",
-      "stageSourceId": "src-ne-primary-canvass-2026"
+      "filingSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "stageSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "generalElectionStatus": "Listed in the final statewide general-election candidate list."
     },
     {
       "candidacyId": "cdy-cand-mark-p-kujath-office-norris-public-power-district-subdivision-4-contest-office-norris-public-power-district-subdivision-4-2026-general-filing-snapshot",
@@ -1973,8 +2332,10 @@
       "affiliationId": "aff-mark-p-kujath-2026",
       "electionStageGroup": "current-general-election",
       "seat": "Subdivision 4",
-      "filingSourceId": "src-ne-general-filing-snapshot-2026-07-15",
-      "stageSourceId": "src-ne-general-filing-snapshot-2026-07-15"
+      "filingSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "stageSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "Listed in the final statewide general-election candidate list."
     },
     {
       "candidacyId": "cdy-cand-andrew-w-adam-office-odell-village-board-contest-office-odell-village-board-2026-general-filing-snapshot",
@@ -1983,8 +2344,22 @@
       "affiliationId": "aff-andrew-w-adam-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
+    },
+    {
+      "candidacyId": "cdy-cand-anthony-m-landon-office-odell-village-board-contest-office-odell-village-board-2026-general-filing-snapshot",
+      "candidateId": "cand-anthony-m-landon",
+      "officeId": "office-odell-village-board",
+      "affiliationId": "aff-anthony-m-landon-2026",
+      "electionStageGroup": "current-general-election",
+      "seat": null,
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Declared write-in",
+      "generalElectionStatus": "Declared write-in candidate listed by the county; the name is not established as printed on the ballot."
     },
     {
       "candidacyId": "cdy-cand-travis-a-reiman-office-odell-village-board-contest-office-odell-village-board-2026-general-filing-snapshot",
@@ -1993,8 +2368,10 @@
       "affiliationId": "aff-travis-a-reiman-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-travus-m-snyder-office-odell-village-board-contest-office-odell-village-board-2026-general-filing-snapshot",
@@ -2003,8 +2380,10 @@
       "affiliationId": "aff-travus-m-snyder-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-alan-a-wallman-office-pickrell-village-board-contest-office-pickrell-village-board-2026-general-filing-snapshot",
@@ -2013,8 +2392,10 @@
       "affiliationId": "aff-alan-a-wallman-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "2 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-ross-trauernicht-office-pickrell-village-board-contest-office-pickrell-village-board-2026-general-filing-snapshot",
@@ -2023,8 +2404,10 @@
       "affiliationId": "aff-ross-trauernicht-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "2 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-brad-frerichs-office-sherman-township-board-contest-office-sherman-township-board-2026-general-filing-snapshot",
@@ -2033,8 +2416,10 @@
       "affiliationId": "aff-brad-frerichs-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-darin-frerichs-office-sherman-township-board-contest-office-sherman-township-board-2026-general-filing-snapshot",
@@ -2043,8 +2428,10 @@
       "affiliationId": "aff-darin-frerichs-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-denise-spilker-office-sherman-township-board-contest-office-sherman-township-board-2026-general-filing-snapshot",
@@ -2053,8 +2440,10 @@
       "affiliationId": "aff-denise-spilker-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "3 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-beverly-r-acton-office-southern-public-schools-contest-office-southern-public-schools-2026-general-filing-snapshot",
@@ -2063,8 +2452,10 @@
       "affiliationId": "aff-beverly-r-acton-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-david-a-zimmerman-office-southern-public-schools-contest-office-southern-public-schools-2026-general-filing-snapshot",
@@ -2073,8 +2464,10 @@
       "affiliationId": "aff-david-a-zimmerman-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-jeff-argo-office-southern-public-schools-contest-office-southern-public-schools-2026-general-filing-snapshot",
@@ -2083,8 +2476,10 @@
       "affiliationId": "aff-jeff-argo-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "4 candidates are currently listed; general-election contest status is not yet final."
     },
     {
       "candidacyId": "cdy-cand-angie-eberspacher-office-state-board-of-education-district-5-contest-office-state-board-of-education-district-5-nonpartisan-primary",
@@ -2092,8 +2487,9 @@
       "officeId": "office-state-board-of-education-district-5",
       "affiliationId": "aff-angie-eberspacher-2026",
       "electionStageGroup": "current-general-election",
-      "filingSourceId": "src-ne-general-filing-snapshot-2026-07-15",
-      "stageSourceId": "src-ne-primary-canvass-2026"
+      "filingSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "stageSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "generalElectionStatus": "Listed in the final statewide general-election candidate list."
     },
     {
       "candidacyId": "cdy-cand-adrian-smith-office-us-house-district-3-contest-office-us-house-district-3-republican-primary",
@@ -2101,8 +2497,9 @@
       "officeId": "office-us-house-district-3",
       "affiliationId": "aff-adrian-smith-2026",
       "electionStageGroup": "current-general-election",
-      "filingSourceId": "src-ne-general-filing-snapshot-2026-07-15",
-      "stageSourceId": "src-ne-primary-canvass-2026"
+      "filingSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "stageSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "generalElectionStatus": "Listed in the final statewide general-election candidate list."
     },
     {
       "candidacyId": "cdy-cand-pete-ricketts-office-us-senator-contest-office-us-senator-republican-primary",
@@ -2110,8 +2507,9 @@
       "officeId": "office-us-senator",
       "affiliationId": "aff-pete-ricketts-2026",
       "electionStageGroup": "current-general-election",
-      "filingSourceId": "src-ne-general-filing-snapshot-2026-07-15",
-      "stageSourceId": "src-ne-primary-canvass-2026"
+      "filingSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "stageSourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "generalElectionStatus": "Listed in the final statewide general-election candidate list."
     },
     {
       "candidacyId": "cdy-cand-russell-harms-office-virginia-village-board-contest-office-virginia-village-board-2026-general-filing-snapshot",
@@ -2120,8 +2518,10 @@
       "affiliationId": "aff-russell-harms-2026",
       "electionStageGroup": "current-general-election",
       "seat": null,
-      "filingSourceId": "src-gage-county-filing-snapshot-2026-08-03",
-      "stageSourceId": "src-gage-county-filing-snapshot-2026-08-03"
+      "filingSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "stageSourceId": "src-gage-county-filing-snapshot-2026-10-06",
+      "filingMethod": "Regular filing",
+      "generalElectionStatus": "2 candidates are currently listed; general-election contest status is not yet final."
     }
   ],
   "sources": [
@@ -2133,40 +2533,49 @@
       "sourceType": "County-issued election report",
       "publicStatus": "County-issued unofficial results",
       "publicDescription": "This county report is labeled UNOFFICIAL RESULTS. The project uses it as its authoritative source for the Gage County reporting shown here; county totals alone do not establish final statewide or multi-county district outcomes.",
-      "scopeNote": "Statewide, federal, legislative, and State Board totals are the Gage County portion only and cannot independently establish the full-district or statewide winner."
+      "scopeNote": "Statewide, federal, legislative, and State Board totals are the Gage County portion only and cannot independently establish the full-district or statewide winner.",
+      "evidenceKind": "primary-results",
+      "reviewedDate": "2026-07-15"
     },
     {
       "sourceId": "src-ne-votercheck",
       "name": "Nebraska VoterCheck",
       "url": "https://www.votercheck.necvr.ne.gov/voterview/",
-      "sourceType": "Official voter registration verification"
+      "sourceType": "Official voter registration verification",
+      "evidenceKind": "registration",
+      "reviewedDate": "2026-08-12"
     },
     {
-      "sourceId": "src-gage-county-filing-snapshot-2026-08-03",
+      "sourceId": "src-gage-county-voter-roll-2026-10-13",
+      "name": "Gage County Voter Roll",
+      "url": null,
+      "sourceType": "Official voter registration verification",
+      "publicStatus": "Voter-roll confirmation reported by the publisher",
+      "scopeNote": "Publisher reported confirmed affiliations for Gene Radar Reedy, Anthony M. Landon, and Max Manuilov on October 13, 2026. The roll itself was not inspected by the agent; no roll date or public download was supplied.",
+      "evidenceKind": "registration",
+      "reviewedDate": "2026-10-13"
+    },
+    {
+      "sourceId": "src-gage-county-filing-snapshot-2026-10-06",
       "name": "Gage County 2026 Candidate Filing List",
       "url": "https://gagecountyne.gov/wp-content/uploads/sites/35/2026/07/2026-filings_for_office-General-for-web-page-w-auto-adv.pdf",
-      "sha256": "44e54b3acd19ab8294960088cbbe05d87578b3178ba110d2b3736a85a95b3120",
+      "sha256": "3f972200a1f7809fcd3b595af60fdf96eb220be01d45eec4c8bf39d01c474845",
       "sourceType": "Official county filing snapshot",
-      "publicStatus": "Official county filing list through August 3, 2026",
-      "publicDescription": "The Gage County Election Office filing list identifies candidates filed for county, municipal, school, village, and township offices through the county filing deadlines and records withdrawals shown by the office. Ballot certification and other candidate-access pathways remain separate closeout steps."
+      "publicStatus": "Official county filing list with entries through September 29, 2026",
+      "publicDescription": "The county list records filings, withdrawals, a petition candidacy, and declared write-in candidacies. A write-in declaration does not establish that the name is printed on the ballot.",
+      "evidenceKind": "filing",
+      "reviewedDate": "2026-10-06"
     },
     {
-      "sourceId": "src-ne-general-filing-snapshot-2026-07-15",
-      "name": "Nebraska 2026 Statewide Candidate Filing List",
-      "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Statewide_Candidate_Filing_List.xlsx",
-      "sha256": "0e11bcd4324f559384fa530b259364f24108e0c63ae9a892aea6f6c499fe24fd",
+      "sourceId": "src-ne-general-filing-snapshot-2026-09-11",
+      "name": "Nebraska 2026 Final Statewide General Candidate List",
+      "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf",
+      "sha256": "d27a071715896b8c82b8cce8d48200b4207ba10c44f1778f56f92c4efcd7cf96",
       "sourceType": "Official statewide filing snapshot",
-      "publicStatus": "Official filing snapshot current July 15, 2026",
-      "publicDescription": "The Nebraska Secretary of State workbook identifies candidates currently listed for the 2026 general election. Candidate-access pathways remain open, so it does not establish a final general-election contest status."
-    },
-    {
-      "sourceId": "src-ne-primary-canvass-2026",
-      "name": "Nebraska Board of State Canvassers 2026 Primary Election Official Report",
-      "url": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf",
-      "sha256": "d1b2ce9b9746a4faddc2700ce613b3cd620ec1b9bd3f9bacf5e36d9586055fba",
-      "sourceType": "Official certified statewide primary results",
-      "publicStatus": "Official statewide primary canvass",
-      "publicDescription": "The Nebraska Board of State Canvassers report identifies official 2026 primary nominees and statewide or districtwide primary outcomes."
+      "publicStatus": "Final statewide general candidate list dated September 11, 2026",
+      "publicDescription": "The Secretary of State final list identifies general-election candidates and ballot-party labels for state, federal, and state-filed local district races.",
+      "evidenceKind": "filing",
+      "reviewedDate": "2026-10-06"
     },
     {
       "sourceId": "src-gage-primary-sample-ballots-2026",
@@ -2175,7 +2584,19 @@
       "sha256": "aa1f6f181f713cdc565d2ed9ceb121a429a2e58767050b3eb390a294273c4277",
       "sourceType": "Official county sample ballot notice",
       "publicStatus": "Official primary sample-ballot notice",
-      "publicDescription": "The county sample-ballot notice explains that candidates are declared nominated and omitted from the primary ballot when filings do not exceed the statutory primary threshold."
+      "publicDescription": "The county sample-ballot notice explains that candidates are declared nominated and omitted from the primary ballot when filings do not exceed the statutory primary threshold.",
+      "evidenceKind": "uncontested-primary",
+      "reviewedDate": "2026-07-15"
+    },
+    {
+      "sourceId": "src-vip-eric-g-malina-2026-10-26",
+      "name": "Voter Information Project: Eric G. Malina",
+      "url": "https://www.voterinformation.org/races/general-2026/educational-service-unit-06-district-05-g26/",
+      "sourceType": "Supplementary voter guide",
+      "publicStatus": "Voter Information Project affiliation listing",
+      "publicDescription": "Reports the candidate's political affiliation. This citation is a voter-guide listing, not a direct voter-registration check.",
+      "evidenceKind": "reported-affiliation",
+      "reviewedDate": "2026-10-26"
     }
   ]
 }

@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'src/data/elections/2026/election-directory.json'
 OUT = ROOT / 'output/pdf/gage-county-gop-2026-candidate-flyer.pdf'
 d = json.loads(DATA.read_text())
+judicial = json.loads((DATA.parent / 'judicial-retention.json').read_text())
 calendar = json.loads((DATA.parent / 'voting-calendar.json').read_text())
 candidates = {r['candidateId']:r for r in d['candidates']}
 affiliations = {r['affiliationId']:r for r in d['affiliations']}
@@ -74,15 +75,16 @@ def office(oid,x,y,label=None):
     label=label.replace(' Township Board','').replace(' Village Board','')
     if o['voteFor']>1 and oid!='office-beatrice-city-council':
         label += f" · Vote up to {o['voteFor']}"
-    y=para(escape(label),x,y,W,8.8,'Bold',INK,9.6)
+    y=para(escape(label),x,y,W,8.8,'Bold',INK,9.2)
     for r in rows:
         name=candidates[r['candidateId']]['displayName']
+        if r.get('filingMethod')=='Declared write-in': name += ' (write-in)'
         if oid=='office-beatrice-city-council':
             name += ' (' + r['seat'] + ')' 
         c.setStrokeColor(INK);c.setLineWidth(.55)
         c.ellipse(x+.4,y-7.9,x+7.6,y-3.7,stroke=1,fill=0)
         oval_count += 1
-        y=para(escape(name),x+11,y,W-11,10,'Wide',RED,11)
+        y=para(escape(name),x+11,y,W-11,10,'Wide',RED,10.5)
     y-=OFFICE_GAP/2
     c.setStrokeColor(LINE);c.setLineWidth(.4);c.line(x,y,x+W,y)
     return y-OFFICE_GAP/2
@@ -102,11 +104,11 @@ y=section('FEDERAL', ['office-us-senator','office-us-house-district-3'],x,y,labe
 y=section('STATE', ['office-nebraska-governor','office-nebraska-secretary-of-state','office-nebraska-state-treasurer','office-nebraska-attorney-general','office-nebraska-state-auditor','office-nebraska-legislature-district-30','office-state-board-of-education-district-5'],x,y,labels)
 y=section('SCHOOL BOARDS',sorted([oid for oid in by_office if offices[oid]['category']=='School Boards']),x,y)
 bottoms=[y]
-x=168;y=TOP;OFFICE_GAP=9
+x=168;y=TOP;OFFICE_GAP=5
 y=section('COUNTY', ['office-gage-county-supervisor-district-1','office-gage-county-supervisor-district-3','office-gage-county-supervisor-district-5','office-gage-county-supervisor-district-7','office-gage-county-assessor','office-gage-county-attorney','office-gage-county-clerk','office-gage-county-register-of-deeds','office-gage-county-sheriff','office-gage-county-surveyor','office-gage-county-treasurer'],x,y)
-y=section('OTHER LOCAL DISTRICTS',sorted([oid for oid in by_office if offices[oid]['category']=='Other Local Districts']),x,y,{'office-esu-5-district-5':'ESU 5 - District 5','office-esu-5-district-7':'ESU 5 - District 7','office-norris-public-power-district-subdivision-4':'Norris Public Power - Subdiv. 4'})
+y=section('OTHER LOCAL DISTRICTS',sorted([oid for oid in by_office if offices[oid]['category']=='Other Local Districts']),x,y,{'office-esu-6-district-5':'ESU 6 - District 5','office-esu-5-district-5':'ESU 5 - District 5','office-esu-5-district-7':'ESU 5 - District 7','office-norris-public-power-district-subdivision-4':'Norris Public Power - Subdiv. 4'})
 bottoms.append(y)
-x=312;y=TOP;OFFICE_GAP=3
+x=312;y=TOP;OFFICE_GAP=1
 y=section('CITIES & VILLAGES',sorted([oid for oid in by_office if offices[oid]['category']=='Cities & Villages']),x,y)
 bottoms.append(y)
 x=456;y=TOP;OFFICE_GAP=10
@@ -133,11 +135,35 @@ text('gagecountygop.org',24,65,17,'Bold',NAVY)
 text('Provided by Gage County GOP',385,67,10,'Bold',NAVY)
 c.linkURL('https://www.gagecountygop.org/',(24,60,220,80),relative=0)
 para('Includes documented Republicans in nonpartisan races. Unconfirmed affiliations omitted. Listing does not imply endorsement.',24,55,564,8,color=GRAY,leading=8.5)
-para('Candidate sources: Local Civic Reference; county filings Aug. 3, state filings July 15; reviewed Aug. 12, 2026.<br/>Voting dates: Nebraska Secretary of State 2026 Election Calendar (linked above). Prepared Sept. 26, 2026. Not an official ballot.',24,43,564,8,color=GRAY,leading=8.5)
+para('Candidate source: Local Civic Reference; reviewed '+d['lastValidated']+'. Malina affiliation reported by VIP. See partyreveal.com for evidence.<br/>Landon: write the name on the ballot write-in line and mark its oval. Judicial retention questions are on page 2. Not an official ballot.',24,43,564,8,color=GRAY,leading=8.5)
+text('1 of 2',550,15,8,'Body',GRAY)
+c.linkURL('https://partyreveal.com/',(24,29,588,52),relative=0)
+c.showPage()
+c.setFillColor(RED);c.rect(36,754,540,4,fill=1,stroke=0)
+text('GAGE COUNTY GOP',36,728,20,'Wide',NAVY)
+text('JUDICIAL RETENTION',36,697,23,'Wide',NAVY)
+y=para(escape(judicial['copy']['introduction']),36,676,540,11,'Regular',INK,15)
+y=para(escape(judicial['copy']['instructions']),36,y-10,540,11,'Bold',INK,15)
+y=para('Listed for ballot reference. Inclusion does not recommend a Yes or No vote.',36,y-8,540,10,'Regular',GRAY,14)-20
+for court in judicial['data']['courts']:
+    y=para(escape(court['name']+' - '+court['scope']),36,y,540,13,'Wide',NAVY,17)-8
+    for question in judicial['data']['questions']:
+        if question['courtId']!=court['courtId']:continue
+        y=para(escape(question['name']),48,y,516,12,'Wide',INK,16)
+        y=para(escape(question['ballotQuestion']),48,y-3,516,11,'Regular',INK,15)
+        y=para('Six-year term. Ballot choices: Yes or No.',48,y-3,516,10,'Regular',GRAY,13)-14
+    y-=7
+assert y>80, 'Retention content exceeds second page'
+para('Sources: Nebraska Secretary of State final retention list (August 3, 2026) and Nebraska Judicial Branch voter guide. Reviewed October 26, 2026. This reference is not an official ballot.',36,65,540,9,'Regular',GRAY,12)
+c.linkURL(judicial['data']['questions'][0]['sources'][0]['url'],(36,35,576,68),relative=0)
+text('2 of 2',550,15,8,'Body',GRAY)
 c.showPage();c.save()
-r=PdfReader(str(OUT));assert len(r.pages)==1
+r=PdfReader(str(OUT));assert len(r.pages)==2
 assert tuple(float(v) for v in r.pages[0].mediabox)==(0.,0.,612.,792.)
 extracted=' '.join(r.pages[0].extract_text().split())
+retention_text=' '.join(r.pages[1].extract_text().split())
+for question in judicial['data']['questions']:assert question['ballotQuestion'] in retention_text
+assert 'Anthony M. Landon (write-in)' in extracted
 for row in selected:
     name=candidates[row['candidateId']]['displayName'];assert name in extracted,name
 print(f'Validated {len(selected)} listings; {len(set(r["candidateId"] for r in selected))} distinct candidates; {len(by_office)} offices. {OUT}')
