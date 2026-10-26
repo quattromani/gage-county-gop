@@ -20,3 +20,7 @@ Full card: http://localhost:4196/vote-2026/
 Phone frame: http://localhost:4192/voter-card-mobile-preview.html
 
 Release uses the existing GitHub Pages address for canonical metadata, social images, and calendar subscriptions. Prepared custom-domain source changes are preserved separately in /Users/maxquattromani/Sites/output/gage-county-gop-domain-change.pending.patch. Domain activation remains pending email verification.
+
+## Download names
+
+Use gage-county-gop-2026-voter-card-mobile.pdf, gage-county-gop-2026-voter-card-letter-size.pdf, and gage-county-gop-2026-voter-card-mobile.png for web delivery. Explicit download attributes match the descriptive PDF filenames. Keep the older candidate-card and print-flyer URLs as aliases for already-shared links and offline copies. Source publication filenames remain stable.
