@@ -1,7 +1,7 @@
 {
   "authority": "Local Civic Reference",
   "repository": "https://github.com/quattromani/local-civic-reference",
-  "commit": "c842847408abd9992c3356e3fb196e0fc5d98957",
+  "commit": "2f22c50d8f96cf0a89cc04575bd7d68182b697f5",
   "candidateSourcePath": "src/data/elections/2026/election-directory.json",
   "candidateSourceSha256": "729ffaf46818c04817ccc53ffd9299615058f217242834522d1ae7d0867ef095",
   "candidateSourceHasUncommittedChanges": false,

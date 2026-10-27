@@ -1,7 +1,7 @@
 {
   "authority": "Local Civic Reference",
-  "commit": "c842847408abd9992c3356e3fb196e0fc5d98957",
-  "sourceSha256": "7b58cbf985b2ddba07d224882872e3ea28c5807fc17e6439adb32311dfb6c959",
+  "commit": "2f22c50d8f96cf0a89cc04575bd7d68182b697f5",
+  "sourceSha256": "cad21fe3be5ebddedeecc39bfcea6773e59a69c9d8ab13d25ac8fd51e312ad78",
   "data": {
     "electionId": "2026-general-election-gage-county",
     "electionDate": "2026-11-03",
@@ -30,6 +30,17 @@
         "questionId": "retain-dirk-v-block-2026",
         "judgeId": "judge-dirk-v-block",
         "name": "Dirk V. Block",
+        "affiliation": {
+          "label": "Republican",
+          "evidenceType": "reported-affiliation",
+          "source": {
+            "sourceId": "vip-judicial-workers-compensation",
+            "title": "Voter Information Project: reported judicial affiliations",
+            "url": "https://www.voterinformation.org/races/general-2026/judge-of-the-nebraska-workers-compensation-court-g26/",
+            "sourceDate": null,
+            "reviewedDate": "2026-10-26"
+          }
+        },
         "courtId": "workers-compensation",
         "contestType": "judicial-retention",
         "ballotQuestion": "Shall Judge Dirk V. Block be retained in office?",
@@ -53,6 +64,17 @@
         "questionId": "retain-thomas-e-stine-2026",
         "judgeId": "judge-thomas-e-stine",
         "name": "Thomas E. Stine",
+        "affiliation": {
+          "label": "Republican",
+          "evidenceType": "reported-affiliation",
+          "source": {
+            "sourceId": "vip-judicial-workers-compensation",
+            "title": "Voter Information Project: reported judicial affiliations",
+            "url": "https://www.voterinformation.org/races/general-2026/judge-of-the-nebraska-workers-compensation-court-g26/",
+            "sourceDate": null,
+            "reviewedDate": "2026-10-26"
+          }
+        },
         "courtId": "workers-compensation",
         "contestType": "judicial-retention",
         "ballotQuestion": "Shall Judge Thomas E. Stine be retained in office?",
@@ -76,6 +98,17 @@
         "questionId": "retain-ricky-a-schreiner-2026",
         "judgeId": "judge-ricky-a-schreiner",
         "name": "Ricky A. Schreiner",
+        "affiliation": {
+          "label": "Republican",
+          "evidenceType": "reported-affiliation",
+          "source": {
+            "sourceId": "vip-judicial-district-court-1",
+            "title": "Voter Information Project: reported judicial affiliations",
+            "url": "https://www.voterinformation.org/races/general-2026/judge-of-the-district-court-district-01-g26/",
+            "sourceDate": null,
+            "reviewedDate": "2026-10-26"
+          }
+        },
         "courtId": "district-court-1",
         "contestType": "judicial-retention",
         "ballotQuestion": "Shall Judge Ricky A. Schreiner be retained in office?",
@@ -99,6 +132,17 @@
         "questionId": "retain-julie-d-smith-2026",
         "judgeId": "judge-julie-d-smith",
         "name": "Julie D. Smith",
+        "affiliation": {
+          "label": "Republican",
+          "evidenceType": "reported-affiliation",
+          "source": {
+            "sourceId": "vip-judicial-district-court-1",
+            "title": "Voter Information Project: reported judicial affiliations",
+            "url": "https://www.voterinformation.org/races/general-2026/judge-of-the-district-court-district-01-g26/",
+            "sourceDate": null,
+            "reviewedDate": "2026-10-26"
+          }
+        },
         "courtId": "district-court-1",
         "contestType": "judicial-retention",
         "ballotQuestion": "Shall Judge Julie D. Smith be retained in office?",
@@ -122,6 +166,17 @@
         "questionId": "retain-david-j-a-bargen-2026",
         "judgeId": "judge-david-j-a-bargen",
         "name": "David J. A. Bargen",
+        "affiliation": {
+          "label": "Republican",
+          "evidenceType": "reported-affiliation",
+          "source": {
+            "sourceId": "vip-judicial-district-court-1",
+            "title": "Voter Information Project: reported judicial affiliations",
+            "url": "https://www.voterinformation.org/races/general-2026/judge-of-the-district-court-district-01-g26/",
+            "sourceDate": null,
+            "reviewedDate": "2026-10-26"
+          }
+        },
         "courtId": "district-court-1",
         "contestType": "judicial-retention",
         "ballotQuestion": "Shall Judge David J. A. Bargen be retained in office?",
@@ -145,6 +200,17 @@
         "questionId": "retain-richard-r-smith-2026",
         "judgeId": "judge-richard-r-smith",
         "name": "Richard R. Smith",
+        "affiliation": {
+          "label": "Republican",
+          "evidenceType": "reported-affiliation",
+          "source": {
+            "sourceId": "vip-judicial-county-court-1",
+            "title": "Voter Information Project: reported judicial affiliations",
+            "url": "https://www.voterinformation.org/races/general-2026/judge-of-the-county-court-district-01-g26/",
+            "sourceDate": null,
+            "reviewedDate": "2026-10-26"
+          }
+        },
         "courtId": "county-court-1",
         "contestType": "judicial-retention",
         "ballotQuestion": "Shall Judge Richard R. Smith be retained in office?",

@@ -122,7 +122,8 @@ for court in judicial['data']['courts']:
     para(escape(court['name']+' - '+court['scope']),14,True,NAVY);gap(10)
     for question in judicial['data']['questions']:
         if question['courtId']!=court['courtId']:continue
-        para(escape(question['name']),15,True,NAVY);gap(3)
+        para(escape(question['name']+' - '+question['affiliation']['label']),15,True,NAVY);gap(3)
+        para('Reported by Voter Information Project',10,color=GRAY);gap(3)
         para(escape(question['ballotQuestion']),12);gap(3)
         para('Six-year term. Ballot choices: Yes or No.',11,color=GRAY);gap(13)
     rule();gap(15)

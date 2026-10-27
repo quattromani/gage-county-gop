@@ -86,3 +86,12 @@ test('masthead returns visitors to the current party homepage in the same browsi
  assert.match(masthead,/aria-label="Gage County Republican Party home"/);
  assert.ok(!masthead.includes('target='));
 });
+
+test('judicial affiliations are attributed to VIP without marking a retention choice',()=>{
+  const judicial=JSON.parse(fs.readFileSync(path.join(root,'src/data/elections/2026/judicial-retention.json')));
+  for(const q of judicial.data.questions){
+    assert.equal(q.affiliation.label,'Republican');
+    assert.equal(q.affiliation.evidenceType,'reported-affiliation');
+    assert.ok(html.includes(q.affiliation.source.url));
+  }
+});

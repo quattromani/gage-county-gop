@@ -151,12 +151,13 @@ for court in judicial['data']['courts']:
     y=para(escape(court['name']+' - '+court['scope']),36,y,540,13,'Wide',NAVY,17)-8
     for question in judicial['data']['questions']:
         if question['courtId']!=court['courtId']:continue
-        y=para(escape(question['name']),48,y,516,12,'Wide',INK,16)
+        y=para(escape(question['name']+' - '+question['affiliation']['label']),48,y,516,12,'Wide',INK,16)
+        c.linkURL(question['affiliation']['source']['url'],(48,y,420,y+16),relative=0)
         y=para(escape(question['ballotQuestion']),48,y-3,516,11,'Regular',INK,15)
         y=para('Six-year term. Ballot choices: Yes or No.',48,y-3,516,10,'Regular',GRAY,13)-14
     y-=7
 assert y>80, 'Retention content exceeds second page'
-para('Sources: Nebraska Secretary of State final retention list (August 3, 2026) and Nebraska Judicial Branch voter guide. Reviewed October 26, 2026. This reference is not an official ballot.',36,65,540,9,'Regular',GRAY,12)
+para('Affiliations reported by Voter Information Project (linked beside each judge). Sources: Nebraska Secretary of State final retention list (August 3, 2026) and Nebraska Judicial Branch voter guide. Reviewed October 26, 2026. This reference is not an official ballot.',36,65,540,9,'Regular',GRAY,12)
 c.linkURL(judicial['data']['questions'][0]['sources'][0]['url'],(36,35,576,68),relative=0)
 text('2 of 2',550,15,8,'Body',GRAY)
 c.showPage();c.save()
