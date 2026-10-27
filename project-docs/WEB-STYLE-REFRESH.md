@@ -24,3 +24,5 @@ Release uses the existing GitHub Pages address for canonical metadata, social im
 ## Download names
 
 Use gage-county-gop-2026-voter-card-mobile.pdf, gage-county-gop-2026-voter-card-letter-size.pdf, and gage-county-gop-2026-voter-card-mobile.png for web delivery. Explicit download attributes match the descriptive PDF filenames. Keep the older candidate-card and print-flyer URLs as aliases for already-shared links and offline copies. Source publication filenames remain stable.
+
+The masthead logo and wordmark link to https://www.gagecountygop.org/ in the same browsing context, providing a return path for visitors arriving from Facebook or a shared link. Keep this a native anchor with the accessible name Gage County Republican Party home and visible keyboard focus.

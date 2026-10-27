@@ -78,3 +78,11 @@ test('filled candidate ovals match the explicitly confirmed recommendation roste
  const css=fs.readFileSync(path.join(out,'style.css'),'utf8');
  assert.match(css,/\.ballot-oval\{[^}]*background:var\(--ink\)/);
 });
+
+test('masthead returns visitors to the current party homepage in the same browsing context',()=>{
+ const masthead=html.match(/<a class="brand"[^>]*>/)?.[0];
+ assert.ok(masthead);
+ assert.match(masthead,/href="https:\/\/www\.gagecountygop\.org\/"/);
+ assert.match(masthead,/aria-label="Gage County Republican Party home"/);
+ assert.ok(!masthead.includes('target='));
+});
