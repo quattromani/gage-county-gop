@@ -127,6 +127,10 @@ for court in judicial['data']['courts']:
         para(escape(question['ballotQuestion']),12);gap(3)
         para('Six-year term. Ballot choices: Yes or No.',11,color=GRAY);gap(13)
     rule();gap(15)
+para('Resources for evaluating judges',14,True,NAVY);gap(9)
+for resource in judicial['data']['voterResources']:
+    para('<link href="'+escape(resource['url'])+'">'+escape(resource['title'])+'</link>',11,True,NAVY);gap(4)
+    para(escape(resource['description']),11,color=GRAY);gap(10)
 retention_source_top=cursor
 para('Sources: Nebraska Secretary of State final retention list, August 3, 2026; Nebraska Judicial Branch voter guide. Reviewed October 26, 2026.',10,color=GRAY);gap(10)
 retention_source_bottom=cursor

@@ -1,7 +1,7 @@
 {
   "authority": "Local Civic Reference",
-  "commit": "2f22c50d8f96cf0a89cc04575bd7d68182b697f5",
-  "sourceSha256": "cad21fe3be5ebddedeecc39bfcea6773e59a69c9d8ab13d25ac8fd51e312ad78",
+  "commit": "42a2b7bbb4bf786e221dfff46a74391d71d7c032",
+  "sourceSha256": "e3fe19f6bf06e5c0953234ebd5cf23b648990e380022fb2e41c06c9bdcf3a80f",
   "data": {
     "electionId": "2026-general-election-gage-county",
     "electionDate": "2026-11-03",
@@ -237,7 +237,25 @@
       "url": "https://nebraskajudicial.gov/administration/public/voters%E2%80%99-guide-nebraska%E2%80%99s-judicial-retention-elections",
       "sourceDate": null,
       "reviewedDate": "2026-10-26"
-    }
+    },
+    "voterResources": [
+      {
+        "sourceId": "ne-retention-voter-guide",
+        "title": "Nebraska Judicial Branch: voter guide to judicial retention elections",
+        "url": "https://nebraskajudicial.gov/administration/public/voters%E2%80%99-guide-nebraska%E2%80%99s-judicial-retention-elections",
+        "sourceDate": null,
+        "reviewedDate": "2026-10-26",
+        "description": "Learn how judicial selection and retention elections work."
+      },
+      {
+        "sourceId": "ne-bar-judicial-evaluation",
+        "title": "Nebraska State Bar Association: judicial evaluation poll results",
+        "url": "https://www.nebar.com/?pg=JPEResults",
+        "sourceDate": null,
+        "reviewedDate": "2026-10-28",
+        "description": "Read the 2026 judicial performance evaluations by Nebraska lawyers, coordinated by the Nebraska State Bar Association."
+      }
+    ]
   },
   "copy": {
     "heading": "Judicial retention",
